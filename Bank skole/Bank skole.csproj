@@ -74,6 +74,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+<<<<<<< HEAD
+    <Compile Include="src\views\List Item Custom.xaml.cs">
+      <DependentUpon>List Item Custom.xaml</DependentUpon>
+    </Compile>
+=======
     <Compile Include="src\controllers\AccountController.cs" />
     <Compile Include="src\controllers\CustomerController.cs" />
     <Compile Include="src\db\AccountDB.cs" />
@@ -83,6 +88,7 @@
     <Compile Include="src\models\Account.cs" />
     <Compile Include="src\models\Customer.cs" />
     <Compile Include="src\models\Transaction.cs" />
+>>>>>>> cb274bbe8276229eafd1d0b0d80b4ce55a04587f
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -95,6 +101,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="src\views\List Item Custom.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -115,7 +125,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <Folder Include="src\controllers\" />
+    <Folder Include="src\db\" />
+=======
     <Folder Include="src\views" />
+>>>>>>> cb274bbe8276229eafd1d0b0d80b4ce55a04587f
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

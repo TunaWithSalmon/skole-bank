@@ -5,8 +5,99 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Bank_skole"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="{x:Static SystemParameters.PrimaryScreenHeight}" Width="{x:Static SystemParameters.PrimaryScreenWidth}">
     <Grid>
-        l co
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="3*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+        
+        <!--Grid for Search and Customer Informations-->
+        <Grid Grid.Column="0" Grid.Row="0">
+            <!--Column Definitions for Seach Box and Customer Header-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="30" />
+            </Grid.ColumnDefinitions>
+            <!--Row Definitions for Search box and Customer Header-->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40" />
+                <RowDefinition Height="40" />
+            </Grid.RowDefinitions>
+
+            <!--Search Box-->
+            <TextBox Grid.Column="0" 
+                     Grid.Row="0"
+                     Text="Seach for Customer"
+                     FontSize="20"></TextBox>
+            <!--Customer Header-->
+            <TextBlock Grid.Column="0"
+                     Grid.Row="1"
+                     Text="Customer Name"
+                     FontSize="26">
+            </TextBlock>
+            <!-- + Button -->
+            <Button Grid.Column="1"
+                    Grid.Row="1"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Content="+"
+                    FontSize="30" >
+            </Button>
+        </Grid>
+        <!--Array list with Customers name-->
+        <Grid Grid.Column="0" Grid.Row="1">
+            <ListBox Name="CustomerList">
+                
+            </ListBox>
+        </Grid>
+
+        
+        <!--Grid for Search and Account Informations-->
+        <Grid Grid.Column="1" Grid.Row="0">
+            <!--Column Definitions for Seach Box and Account Header-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="30" />
+            </Grid.ColumnDefinitions>
+            <!--Row Definitions for Search box and Account Header-->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40" />
+                <RowDefinition Height="40" />
+            </Grid.RowDefinitions>
+
+            <!--Search Box-->
+            <TextBox Grid.Column="0" 
+                     Grid.Row="0"
+                     Text="Search for Account Number"
+                     FontSize="20"></TextBox>
+            <!--Customer Header-->
+            <TextBlock Grid.Column="0"
+                     Grid.Row="1"
+                     Text="Account Number"
+                     FontSize="26">
+            </TextBlock>
+            <!-- + Button -->
+            <Button Grid.Column="1"
+                    Grid.Row="1"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Content="+"
+                    FontSize="30" >
+            </Button>
+        </Grid>
+        <!--Array Account List-->
+        <Grid Grid.Column="1" Grid.Row="1">
+            <ListBox Name="AccountList">
+
+            </ListBox>
+        </Grid>
+        
+        
     </Grid>
 </Window>
