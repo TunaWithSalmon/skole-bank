@@ -18,6 +18,23 @@
           <e p="Resources.Designer.cs" t="Include" />
           <e p="Resources.resx" t="Include" />
         </e>
+        <e p="src" t="Include">
+          <e p="controllers" t="Include">
+            <e p="AccountController.cs" t="Include" />
+            <e p="CustomerController.cs" t="Include" />
+          </e>
+          <e p="db" t="Include">
+            <e p="AccountDB.cs" t="Include" />
+            <e p="CustomerDB.cs" t="Include" />
+            <e p="DB.cs" t="Include" />
+          </e>
+          <e p="models" t="Include">
+            <e p="Account.cs" t="Include" />
+            <e p="Customer.cs" t="Include" />
+            <e p="Transaction.cs" t="Include" />
+          </e>
+          <e p="views" t="Include" />
+        </e>
       </e>
       <e p="Bank skole.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
