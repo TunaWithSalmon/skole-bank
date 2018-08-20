@@ -79,6 +79,7 @@
     <Compile Include="src\db\AccountDB.cs" />
     <Compile Include="src\db\CustomerDB.cs" />
     <Compile Include="src\db\DB.cs" />
+    <Compile Include="src\db\DBConnection.cs" />
     <Compile Include="src\models\Account.cs" />
     <Compile Include="src\models\Customer.cs" />
     <Compile Include="src\models\Transaction.cs" />

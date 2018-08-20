@@ -4,7 +4,7 @@ namespace Bank_skole.models
 {
     public class Customer
     {
-        public int CustomerId;
+        public int _id;
         public string FirstName;
         public string LastName;
         public string Cpr; 

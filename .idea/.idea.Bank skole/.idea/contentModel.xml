@@ -27,6 +27,7 @@
             <e p="AccountDB.cs" t="Include" />
             <e p="CustomerDB.cs" t="Include" />
             <e p="DB.cs" t="Include" />
+            <e p="DBConnection.cs" t="Include" />
           </e>
           <e p="models" t="Include">
             <e p="Account.cs" t="Include" />

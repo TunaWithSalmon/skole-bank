@@ -5,7 +5,7 @@ namespace Bank_skole.models
 {
     public class Account
     {
-        public int AccountId;
+        public int _id;
         public int CustomerId;
         public int AccountNumber;
         public string AccountType;
