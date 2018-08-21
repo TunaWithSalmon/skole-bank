@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.InteropServices;
 using System.Threading.Tasks;
-using Bank_skole.models;
+using Bank_skole.collections;
 using MongoDB.Bson;
 using MongoDB.Driver;
 
-namespace Bank_skole.db
+namespace Bank_skole.accessLayer
 {
     public class CustomerDB : DB<Customer>
     {
@@ -36,11 +35,5 @@ namespace Bank_skole.db
             return await GetOne(new BsonDocument("_id", ObjectId.Parse(id)));
         }
 
-        
-        // TODO: Needs to serching for someing including name and serach for first and last name
-        public async Task<List<Customer>> GetCustomersByName(string name)
-        {
-            return await GetAll(new BsonDocument("firstName", name));
-        }
     }
 }

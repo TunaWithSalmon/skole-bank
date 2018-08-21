@@ -1,6 +1,6 @@
 ﻿using MongoDB.Driver;
 
-namespace Bank_skole.db
+namespace Bank_skole.accessLayer
 {
     public class DBConnection
     {

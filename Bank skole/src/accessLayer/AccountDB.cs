@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Bank_skole.models;
+using Bank_skole.collections;
 using MongoDB.Bson;
 using MongoDB.Driver;
 
-namespace Bank_skole.db
+namespace Bank_skole.accessLayer
 {
     public class AccountDB : DB<Account>
     {

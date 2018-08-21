@@ -74,18 +74,21 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="src\views\List Item Custom.xaml.cs">
-      <DependentUpon>List Item Custom.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="src\controllers\AccountController.cs" />
-    <Compile Include="src\controllers\CustomerController.cs" />
-    <Compile Include="src\db\AccountDB.cs" />
-    <Compile Include="src\db\CustomerDB.cs" />
-    <Compile Include="src\db\DB.cs" />
-    <Compile Include="src\db\DBConnection.cs" />
+    <Compile Include="Properties\Annotations.cs" />
     <Compile Include="src\models\Account.cs" />
     <Compile Include="src\models\Customer.cs" />
     <Compile Include="src\models\Transaction.cs" />
+    <Compile Include="src\viewModels\ViewModelBase.cs" />
+    <Compile Include="src\views\List Item Custom.xaml.cs">
+      <DependentUpon>List Item Custom.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="src\accessLayer\AccountDB.cs" />
+    <Compile Include="src\accessLayer\CustomerDB.cs" />
+    <Compile Include="src\accessLayer\DB.cs" />
+    <Compile Include="src\accessLayer\DBConnection.cs" />
+    <Compile Include="src\collections\Account.cs" />
+    <Compile Include="src\collections\Customer.cs" />
+    <Compile Include="src\collections\Transaction.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -122,8 +125,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="src\controllers\" />
-    <Folder Include="src\db\" />
+    <Folder Include="src\accessLayer\" />
     <Folder Include="src\views" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

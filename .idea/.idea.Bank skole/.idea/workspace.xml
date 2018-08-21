@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dec55aac-a60a-4c00-b975-63742cfbcbaf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Bank skole/Properties/Annotations.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bank skole/src/collections/Account.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bank skole/src/collections/Customer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bank skole/src/collections/Transaction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bank skole/src/viewModels/ViewModelBase.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bank skole/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bank skole/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bank skole/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bank skole/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank skole/Bank skole.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Bank skole/Bank skole.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank skole/src/controllers/AccountController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank skole/src/controllers/CustomerController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank skole/src/db/AccountDB.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bank skole/src/accessLayer/AccountDB.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank skole/src/db/CustomerDB.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bank skole/src/accessLayer/CustomerDB.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank skole/src/db/DB.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bank skole/src/accessLayer/DB.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank skole/src/db/DBConnection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bank skole/src/accessLayer/DBConnection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank skole/src/models/Account.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bank skole/src/models/Account.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank skole/src/models/Customer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bank skole/src/models/Customer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank skole/src/models/Transaction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bank skole/src/models/Transaction.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,110 +29,195 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AccountController.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bank skole/src/controllers/AccountController.cs">
+      <file leaf-file-name="CustomerDB.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bank skole/src/accessLayer/CustomerDB.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="343">
+              <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
               <folding>
-                <marker date="1534806030279" expanded="true" signature="32:93" ph="{...}" />
-                <marker date="1534806030279" expanded="true" signature="69:91" ph="{...}" />
+                <marker date="1534844285114" expanded="true" signature="6:149" ph="..." />
+                <marker date="1534844285114" expanded="true" signature="183:933" ph="{...}" />
+                <marker date="1534844285114" expanded="true" signature="228:931" ph="{...}" />
+                <marker date="1534844285114" expanded="true" signature="302:322" ph="{...}" />
+                <marker date="1534844285114" expanded="true" signature="457:766" ph="{...}" />
+                <marker date="1534844285114" expanded="true" signature="521:720" ph="{...}" />
+                <marker date="1534844285114" expanded="true" signature="826:924" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountDB.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bank skole/src/db/AccountDB.cs">
+      <file leaf-file-name="ViewModelBase.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bank skole/src/viewModels/ViewModelBase.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <marker date="1534762017751" expanded="true" signature="6:130" ph="..." />
-                <marker date="1534762017751" expanded="true" signature="198:426" ph="{...}" />
-                <marker date="1534762017751" expanded="true" signature="270:291" ph="{...}" />
-                <marker date="1534762017751" expanded="true" signature="347:420" ph="{...}" />
+                <marker date="1534844132282" expanded="true" signature="6:97" ph="..." />
+                <marker date="1534844132282" expanded="true" signature="130:528" ph="{...}" />
+                <marker date="1534844132282" expanded="true" signature="197:526" ph="{...}" />
+                <marker date="1534844132282" expanded="true" signature="407:520" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainWindow.xaml.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bank skole/MainWindow.xaml.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-              <folding>
-                <marker date="1534770214458" expanded="true" signature="27:105" ph="/// Interaction logic for MainWindow.xaml ... " />
-                <marker date="1534770214458" expanded="true" signature="141:237" ph="{...}" />
-                <marker date="1534770214458" expanded="true" signature="175:231" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBConnection.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bank skole/src/db/DBConnection.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-              <folding>
-                <marker date="1534769548281" expanded="true" signature="46:650" ph="{...}" />
-                <marker date="1534769548281" expanded="true" signature="78:648" ph="{...}" />
-                <marker date="1534769548281" expanded="true" signature="225:513" ph="{...}" />
-                <marker date="1534769548281" expanded="true" signature="251:503" ph="{...}" />
-                <marker date="1534769548281" expanded="true" signature="304:430" ph="{...}" />
-                <marker date="1534769548281" expanded="true" signature="560:642" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bank skole.csproj" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Bank skole/Bank skole.csproj">
+      <file leaf-file-name="Resources.resx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bank skole/Properties/Resources.resx">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="CustomerDB.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bank skole/src/db/CustomerDB.cs">
+      <file leaf-file-name="Annotations.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bank skole/Properties/Annotations.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="42" column="68" selection-start-line="42" selection-start-column="68" selection-end-line="42" selection-end-column="68" />
+            <state>
               <folding>
-                <marker date="1534806870886" expanded="true" signature="6:182" ph="..." />
-                <marker date="1534806870886" expanded="true" signature="207:1227" ph="{...}" />
-                <marker date="1534806870886" expanded="true" signature="252:1225" ph="{...}" />
-                <marker date="1534806870886" expanded="true" signature="326:346" ph="{...}" />
-                <marker date="1534806870886" expanded="true" signature="481:790" ph="{...}" />
-                <marker date="1534806870886" expanded="true" signature="545:744" ph="{...}" />
-                <marker date="1534806870886" expanded="true" signature="850:948" ph="{...}" />
-                <marker date="1534806870886" expanded="true" signature="1129:1219" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Customer.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bank skole/src/models/Customer.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-              <folding>
-                <marker date="1534806136120" expanded="true" signature="42:268" ph="{...}" />
-                <marker date="1534806136120" expanded="true" signature="70:266" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="0:1096" ph="/* MIT License ... */" />
+                <marker date="1534844050185" expanded="true" signature="1142:1429" ph="/* ReSharper disable UnusedMember.Global ... */" />
+                <marker date="1534844050185" expanded="true" signature="1463:41719" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="1468:1881" ph="/// Indicates that the value of the marked element could be &lt;c&gt;null&lt;/c&gt; sometimes, ... " />
+                <marker date="1534844050185" expanded="true" signature="1884:2163" ph="[...]" />
+                <marker date="1534844050185" expanded="true" signature="2224:2480" ph="/// Indicates that the value of the marked element could never be &lt;c&gt;null&lt;/c&gt;. ... " />
+                <marker date="1534844050185" expanded="true" signature="2483:2762" ph="[...]" />
+                <marker date="1534844050185" expanded="true" signature="2821:3103" ph="/// Can be appplied to symbols of types derived from IEnumerable as well as to symbols of Task ... " />
+                <marker date="1534844050185" expanded="true" signature="3106:3266" ph="[...]" />
+                <marker date="1534844050185" expanded="true" signature="3329:3605" ph="/// Can be appplied to symbols of types derived from IEnumerable as well as to symbols of Task ... " />
+                <marker date="1534844050185" expanded="true" signature="3608:3768" ph="[...]" />
+                <marker date="1534844050185" expanded="true" signature="3833:4433" ph="/// Indicates that the marked method builds string by format pattern and (optional) arguments. ... " />
+                <marker date="1534844050185" expanded="true" signature="4436:4573" ph="[...]" />
+                <marker date="1534844050185" expanded="true" signature="4635:5004" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="4644:4791" ph="/// &lt;param name=&quot;formatParameterName&quot;&gt; ... " />
+                <marker date="1534844050185" expanded="true" signature="4868:4929" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="5008:5197" ph="/// For a parameter that is expected to be one of the limited set of values. ... " />
+                <marker date="1534844050185" expanded="true" signature="5200:5328" ph="[...]" />
+                <marker date="1534844050185" expanded="true" signature="5385:5537" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="5446:5477" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="5541:5997" ph="/// Indicates that the function argument should be string literal and match one ... " />
+                <marker date="1534844050185" expanded="true" signature="6116:7596" ph="/// Indicates that the method is contained in a type that implements ... " />
+                <marker date="1534844050185" expanded="true" signature="7714:7978" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="7858:7907" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="7982:10093" ph="/// Describes dependency between method input and output. ... " />
+                <marker date="1534844050185" expanded="true" signature="10221:10613" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="10414:10494" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="10617:10892" ph="/// Indicates that marked element should be localized or not. ... " />
+                <marker date="1534844050185" expanded="true" signature="10997:11209" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="11118:11157" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="11213:11865" ph="/// Indicates that the value of the marked type (or its derivatives) ... " />
+                <marker date="1534844050185" expanded="true" signature="12042:12529" ph="/// When applied to a target attribute, specifies a requirement for any type marked ... " />
+                <marker date="1534844050185" expanded="true" signature="12694:12861" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="12760:12799" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="12865:13088" ph="/// Indicates that the marked symbol is used implicitly (e.g. via reflection, in external library), ... " />
+                <marker date="1534844050185" expanded="true" signature="13187:13901" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="13680:13760" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="13905:14095" ph="/// Should be used on attributes and causes ReSharper to not mark symbols marked with such attributes ... " />
+                <marker date="1534844050185" expanded="true" signature="14234:14990" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="14735:14815" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="15036:15672" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="15300:15497" ph="/// Indicates implicit instantiation of a type with fixed constructor signature. ... " />
+                <marker date="1534844050185" expanded="true" signature="15676:15860" ph="/// Specify what is considered used implicitly when marked ... " />
+                <marker date="1534844050185" expanded="true" signature="15907:16186" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="16190:16345" ph="/// This attribute is intended to mark publicly available API ... " />
+                <marker date="1534844050185" expanded="true" signature="16455:16654" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="16552:16589" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="16658:17004" ph="/// Tells code analysis engine if the parameter is completely handled when the invoked method is on stack. ... " />
+                <marker date="1534844050185" expanded="true" signature="17116:17495" ph="/// Indicates that a method does not make any observable state changes. ... " />
+                <marker date="1534844050185" expanded="true" signature="17595:17698" ph="/// Indicates that the return value of method invocation must be used. ... " />
+                <marker date="1534844050185" expanded="true" signature="17804:18045" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="17925:17974" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="18049:18717" ph="/// Indicates the type member or parameter of some type, that should be used instead of all other ways ... " />
+                <marker date="1534844050185" expanded="true" signature="18720:18968" ph="[...]" />
+                <marker date="1534844050185" expanded="true" signature="19035:19220" ph="/// Indicates that a parameter is a path to a file or a folder within a web project. ... " />
+                <marker date="1534844050185" expanded="true" signature="19324:19550" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="19445:19484" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="19554:20693" ph="/// An extension method marked with this attribute is processed by ReSharper code completion ... " />
+                <marker date="1534844050185" expanded="true" signature="20803:22097" ph="/// Allows specifying a macro for a parameter of a &lt;see cref=&quot;SourceTemplateAttribute&quot;&gt;source template&lt;/see&gt;. ... " />
+                <marker date="1534844050185" expanded="true" signature="22241:23329" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="22250:22451" ph="/// Allows specifying a macro that will be executed for a &lt;see cref=&quot;SourceTemplateAttribute&quot;&gt;source template&lt;/se ... " />
+                <marker date="1534844050185" expanded="true" signature="22512:23018" ph="/// Allows specifying which occurrence of the target parameter becomes editable when the template is deployed. ... " />
+                <marker date="1534844050185" expanded="true" signature="23062:23274" ph="/// Identifies the target parameter of a &lt;see cref=&quot;SourceTemplateAttribute&quot;&gt;source template&lt;/see&gt; if the ... " />
+                <marker date="1534844050185" expanded="true" signature="23525:23702" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="23605:23640" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="23903:24085" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="23988:24023" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="24279:24454" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="24357:24392" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="24646:24819" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="24722:24757" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="25016:25194" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="25097:25132" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="25384:25555" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="25458:25493" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="25559:25930" ph="/// ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter ... " />
+                <marker date="1534844050185" expanded="true" signature="26059:26304" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="26172:26229" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="26308:26555" ph="/// ASP.NET MVC attribute. Indicates that a parameter is an MVC area. ... " />
+                <marker date="1534844050185" expanded="true" signature="26656:26897" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="26765:26822" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="26901:27288" ph="/// ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter is ... " />
+                <marker date="1534844050185" expanded="true" signature="27421:27674" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="27542:27599" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="27678:27893" ph="/// ASP.NET MVC attribute. Indicates that a parameter is an MVC Master. Use this attribute ... " />
+                <marker date="1534844050185" expanded="true" signature="28004:28223" ph="/// ASP.NET MVC attribute. Indicates that a parameter is an MVC model type. Use this attribute ... " />
+                <marker date="1534844050185" expanded="true" signature="28337:28723" ph="/// ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter is an MVC ... " />
+                <marker date="1534844050185" expanded="true" signature="28865:28995" ph="/// ASP.NET MVC attribute. Allows disabling inspections for MVC views within a class or a method. ... " />
+                <marker date="1534844050185" expanded="true" signature="29139:29398" ph="/// ASP.NET MVC attribute. Indicates that a parameter is an MVC display template. ... " />
+                <marker date="1534844050185" expanded="true" signature="29518:29773" ph="/// ASP.NET MVC attribute. Indicates that a parameter is an MVC editor template. ... " />
+                <marker date="1534844050185" expanded="true" signature="29892:30137" ph="/// ASP.NET MVC attribute. Indicates that a parameter is an MVC template. ... " />
+                <marker date="1534844050185" expanded="true" signature="30250:30591" ph="/// ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter ... " />
+                <marker date="1534844050185" expanded="true" signature="30726:30878" ph="/// ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter ... " />
+                <marker date="1534844050185" expanded="true" signature="30996:31217" ph="/// ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter ... " />
+                <marker date="1534844050185" expanded="true" signature="31365:31785" ph="/// ASP.NET MVC attribute. When applied to a parameter of an attribute, ... " />
+                <marker date="1534844050185" expanded="true" signature="32094:32305" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="32212:32243" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="32468:32625" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="32534:32565" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="32629:32866" ph="/// Razor attribute. Indicates that a parameter or a method is a Razor section. ... " />
+                <marker date="1534844050185" expanded="true" signature="33003:33165" ph="/// Indicates how method, constructor invocation or property access ... " />
+                <marker date="1534844050185" expanded="true" signature="33328:33555" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="33412:33475" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="33601:34070" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="34074:34350" ph="/// Indicates that the marked method is assertion method, i.e. it halts control flow if ... " />
+                <marker date="1534844050185" expanded="true" signature="34461:34719" ph="/// Indicates the condition parameter of the assertion method. The method itself should be ... " />
+                <marker date="1534844050185" expanded="true" signature="34828:35033" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="34909:34958" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="35037:35239" ph="/// Specifies assertion type. If the assertion method argument satisfies the condition, ... " />
+                <marker date="1534844050185" expanded="true" signature="35276:35666" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="35670:35851" ph="/// Indicates that the marked method unconditionally terminates control flow execution. ... " />
+                <marker date="1534844050185" expanded="true" signature="36024:36304" ph="/// Indicates that method is pure LINQ method, with postponed enumeration (like Enumerable.Select, ... " />
+                <marker date="1534844050185" expanded="true" signature="36410:36514" ph="/// Indicates that IEnumerable, passed as parameter, is not enumerated. ... " />
+                <marker date="1534844050185" expanded="true" signature="36626:36718" ph="/// Indicates that parameter is regular expression pattern. ... " />
+                <marker date="1534844050185" expanded="true" signature="36829:37052" ph="/// Prevents the Member Reordering feature from tossing members of the marked class. ... " />
+                <marker date="1534844050185" expanded="true" signature="37055:37179" ph="[...]" />
+                <marker date="1534844050185" expanded="true" signature="37240:37468" ph="/// XAML attribute. Indicates the type that has &lt;c&gt;ItemsSource&lt;/c&gt; property and should be treated ... " />
+                <marker date="1534844050185" expanded="true" signature="37579:38064" ph="/// XAML attribute. Indicates the property of some &lt;c&gt;BindingBase&lt;/c&gt;-derived type, that ... " />
+                <marker date="1534844050185" expanded="true" signature="38316:38608" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="38414:38484" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="39117:39296" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="39190:39231" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="39402:39624" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="39543:39620" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="39757:39916" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="39825:39856" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="40043:40314" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="40133:40193" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="40441:40614" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="40508:40549" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="40744:41151" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="40815:40860" ph="{...}" />
+                <marker date="1534844050185" expanded="true" signature="40944:41022" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Transaction.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bank skole/src/models/Transaction.cs">
+        <entry file="file://$PROJECT_DIR$/Bank skole/src/collections/Transaction.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="30">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
               <folding>
-                <marker date="1534806148330" expanded="true" signature="42:246" ph="{...}" />
-                <marker date="1534806148330" expanded="true" signature="73:244" ph="{...}" />
+                <marker date="1534844192103" expanded="true" signature="47:251" ph="{...}" />
+                <marker date="1534844192103" expanded="true" signature="78:249" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -125,29 +226,64 @@
       <file leaf-file-name="Account.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bank skole/src/models/Account.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="60">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
               <folding>
-                <marker date="1534806129590" expanded="false" signature="6:47" ph="..." />
-                <marker date="1534806129590" expanded="true" signature="76:420" ph="{...}" />
-                <marker date="1534806129590" expanded="true" signature="103:418" ph="{...}" />
+                <marker date="1534844211684" expanded="true" signature="27:77" ph="{...}" />
+                <marker date="1534844211684" expanded="true" signature="54:75" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DB.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bank skole/src/db/DB.cs">
+      <file leaf-file-name="Customer.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bank skole/src/models/Customer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+            <state relative-caret-position="60">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
               <folding>
-                <marker date="1534760895783" expanded="true" signature="6:105" ph="..." />
-                <marker date="1534760895783" expanded="true" signature="169:831" ph="{...}" />
-                <marker date="1534760895783" expanded="true" signature="310:398" ph="{...}" />
-                <marker date="1534760895783" expanded="true" signature="449:522" ph="{...}" />
-                <marker date="1534760895783" expanded="true" signature="593:677" ph="{...}" />
-                <marker date="1534760895783" expanded="true" signature="742:825" ph="{...}" />
+                <marker date="1534844247828" expanded="true" signature="27:78" ph="{...}" />
+                <marker date="1534844247828" expanded="true" signature="55:76" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Transaction.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bank skole/src/models/Transaction.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+              <folding>
+                <marker date="1534844260496" expanded="true" signature="27:81" ph="{...}" />
+                <marker date="1534844260496" expanded="true" signature="58:79" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Customer.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bank skole/src/collections/Customer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+              <folding>
+                <marker date="1534844285086" expanded="true" signature="47:273" ph="{...}" />
+                <marker date="1534844285086" expanded="true" signature="75:271" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Account.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bank skole/src/collections/Account.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+              <folding>
+                <marker date="1534844285153" expanded="true" signature="6:47" ph="..." />
+                <marker date="1534844285153" expanded="true" signature="81:425" ph="{...}" />
+                <marker date="1534844285153" expanded="true" signature="108:423" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -159,19 +295,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Bank skole/MainWindow.xaml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bank skole/src/viewModels/ViewModelBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bank skole/src/models/Customer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bank skole/Properties/Annotations.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bank skole/src/models/Transaction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bank skole/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Bank skole/App.xaml.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Bank skole/App.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Bank skole/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Bank skole/src/controllers/CustomerController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Bank skole/src/controllers/AccountController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Bank skole/src/db/AccountDB.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Bank skole/src/db/CustomerDB.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Bank skole/src/models/Customer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Bank skole/src/models/Transaction.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Bank skole/src/models/Account.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Bank skole/src/db/DB.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Bank skole/src/db/DBConnection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bank skole/Properties/Resources.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bank skole/src/accessLayer/AccountDB.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bank skole/src/accessLayer/CustomerDB.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bank skole/src/collections/Customer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bank skole/src/collections/Transaction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E4546037-3D02-406C-AA6C-360C17465823/3c/12379876/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bank skole/src/collections/Account.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bank skole/src/accessLayer/DB.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bank skole/src/accessLayer/DBConnection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bank skole/src/models/Account.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -185,10 +326,19 @@
         <option value="$PROJECT_DIR$/Bank skole/src/db/DBConnection.cs" />
         <option value="$PROJECT_DIR$/Bank skole/MainWindow.xaml.cs" />
         <option value="$PROJECT_DIR$/Bank skole/src/controllers/AccountController.cs" />
+        <option value="$PROJECT_DIR$/Bank skole/Bank skole.csproj" />
+        <option value="$PROJECT_DIR$/Bank skole/src/db/CustomerDB.cs" />
+        <option value="$PROJECT_DIR$/Bank skole/src/accessLayer/AccountDB.cs" />
+        <option value="$PROJECT_DIR$/Bank skole/src/accessLayer/DB.cs" />
+        <option value="$PROJECT_DIR$/Bank skole/src/accessLayer/DBConnection.cs" />
+        <option value="$PROJECT_DIR$/Bank skole/src/accessLayer/CustomerDB.cs" />
+        <option value="$PROJECT_DIR$/Bank skole/src/viewModels/ViewModelBase.cs" />
+        <option value="$PROJECT_DIR$/Bank skole/src/collections/Account.cs" />
+        <option value="$PROJECT_DIR$/Bank skole/src/collections/Customer.cs" />
+        <option value="$PROJECT_DIR$/Bank skole/src/collections/Transaction.cs" />
         <option value="$PROJECT_DIR$/Bank skole/src/models/Account.cs" />
         <option value="$PROJECT_DIR$/Bank skole/src/models/Customer.cs" />
         <option value="$PROJECT_DIR$/Bank skole/src/models/Transaction.cs" />
-        <option value="$PROJECT_DIR$/Bank skole/src/db/CustomerDB.cs" />
       </list>
     </option>
   </component>
@@ -213,6 +363,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -220,13 +371,50 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Bank skole (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Bank skole (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Bank skole" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Bank skole (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Bank skole" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Properties" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Bank skole (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Bank skole" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Bank skole (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Bank skole" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="collections" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Bank skole (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Bank skole" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="models" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Bank skole (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Bank skole" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="viewModels" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,11 +463,12 @@
       <workItem from="1534754002207" duration="44000" />
       <workItem from="1534754094846" duration="8045000" />
       <workItem from="1534805817382" duration="1153000" />
+      <workItem from="1534830389367" duration="6284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9242000" />
+    <option name="totallyTimeSpent" value="15526000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -295,14 +484,14 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50037795" side_tool="true" visible="true" weight="0.32933334" />
       <window_info anchor="bottom" id="Unit Tests" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32933334" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49962208" visible="true" weight="0.32933334" />
       <window_info anchor="bottom" id="NuGet" order="7" weight="0.32933334" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25699168" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26077098" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -329,22 +518,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding>
-            <marker date="1534806030279" expanded="true" signature="32:93" ph="{...}" />
-            <marker date="1534806030279" expanded="true" signature="69:91" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bank skole/src/db/AccountDB.cs">
+    <entry file="file://$PROJECT_DIR$/Bank skole/src/accessLayer/AccountDB.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding>
-            <marker date="1534762017751" expanded="true" signature="6:130" ph="..." />
-            <marker date="1534762017751" expanded="true" signature="198:426" ph="{...}" />
-            <marker date="1534762017751" expanded="true" signature="270:291" ph="{...}" />
-            <marker date="1534762017751" expanded="true" signature="347:420" ph="{...}" />
+            <marker date="1534844211518" expanded="true" signature="6:135" ph="..." />
+            <marker date="1534844211518" expanded="true" signature="169:442" ph="{...}" />
+            <marker date="1534844211518" expanded="true" signature="212:440" ph="{...}" />
+            <marker date="1534844211518" expanded="true" signature="284:305" ph="{...}" />
+            <marker date="1534844211518" expanded="true" signature="361:434" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -361,93 +547,203 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bank skole/src/db/DBConnection.cs">
+    <entry file="file://$PROJECT_DIR$/Bank skole/src/accessLayer/DBConnection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <marker date="1534837834409" expanded="true" signature="55:659" ph="{...}" />
+            <marker date="1534837834409" expanded="true" signature="87:657" ph="{...}" />
+            <marker date="1534837834409" expanded="true" signature="234:522" ph="{...}" />
+            <marker date="1534837834409" expanded="true" signature="260:512" ph="{...}" />
+            <marker date="1534837834409" expanded="true" signature="313:439" ph="{...}" />
+            <marker date="1534837834409" expanded="true" signature="569:651" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bank skole/src/accessLayer/CustomerDB.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="68" selection-start-line="42" selection-start-column="68" selection-end-line="42" selection-end-column="68" />
+          <folding>
+            <marker date="1534844285114" expanded="true" signature="6:149" ph="..." />
+            <marker date="1534844285114" expanded="true" signature="183:933" ph="{...}" />
+            <marker date="1534844285114" expanded="true" signature="228:931" ph="{...}" />
+            <marker date="1534844285114" expanded="true" signature="302:322" ph="{...}" />
+            <marker date="1534844285114" expanded="true" signature="457:766" ph="{...}" />
+            <marker date="1534844285114" expanded="true" signature="521:720" ph="{...}" />
+            <marker date="1534844285114" expanded="true" signature="826:924" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bank skole/src/collections/Customer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <marker date="1534844285086" expanded="true" signature="47:273" ph="{...}" />
+            <marker date="1534844285086" expanded="true" signature="75:271" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bank skole/src/collections/Transaction.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <marker date="1534844192103" expanded="true" signature="47:251" ph="{...}" />
+            <marker date="1534844192103" expanded="true" signature="78:249" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bank skole/src/collections/Account.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <marker date="1534844285153" expanded="true" signature="6:47" ph="..." />
+            <marker date="1534844285153" expanded="true" signature="81:425" ph="{...}" />
+            <marker date="1534844285153" expanded="true" signature="108:423" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bank skole/src/accessLayer/DB.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <marker date="1534837834372" expanded="false" signature="6:105" ph="..." />
+            <marker date="1534837834372" expanded="true" signature="139:842" ph="{...}" />
+            <marker date="1534837834372" expanded="true" signature="178:840" ph="{...}" />
+            <marker date="1534837834372" expanded="true" signature="319:407" ph="{...}" />
+            <marker date="1534837834372" expanded="true" signature="458:531" ph="{...}" />
+            <marker date="1534837834372" expanded="true" signature="602:686" ph="{...}" />
+            <marker date="1534837834372" expanded="true" signature="751:834" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bank skole/Bank skole.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bank skole/src/controllers/AccountController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bank skole/src/accessLayer/AccountDB.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <marker date="1534844211518" expanded="true" signature="6:135" ph="..." />
+            <marker date="1534844211518" expanded="true" signature="169:442" ph="{...}" />
+            <marker date="1534844211518" expanded="true" signature="212:440" ph="{...}" />
+            <marker date="1534844211518" expanded="true" signature="284:305" ph="{...}" />
+            <marker date="1534844211518" expanded="true" signature="361:434" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bank skole/MainWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <marker date="1534770214458" expanded="true" signature="27:105" ph="/// Interaction logic for MainWindow.xaml ... " />
+            <marker date="1534770214458" expanded="true" signature="141:237" ph="{...}" />
+            <marker date="1534770214458" expanded="true" signature="175:231" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bank skole/src/accessLayer/DBConnection.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
           <folding>
-            <marker date="1534769548281" expanded="true" signature="46:650" ph="{...}" />
-            <marker date="1534769548281" expanded="true" signature="78:648" ph="{...}" />
-            <marker date="1534769548281" expanded="true" signature="225:513" ph="{...}" />
-            <marker date="1534769548281" expanded="true" signature="251:503" ph="{...}" />
-            <marker date="1534769548281" expanded="true" signature="304:430" ph="{...}" />
-            <marker date="1534769548281" expanded="true" signature="560:642" ph="{...}" />
+            <marker date="1534837834409" expanded="true" signature="55:659" ph="{...}" />
+            <marker date="1534837834409" expanded="true" signature="87:657" ph="{...}" />
+            <marker date="1534837834409" expanded="true" signature="234:522" ph="{...}" />
+            <marker date="1534837834409" expanded="true" signature="260:512" ph="{...}" />
+            <marker date="1534837834409" expanded="true" signature="313:439" ph="{...}" />
+            <marker date="1534837834409" expanded="true" signature="569:651" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Bank skole/App.xaml.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1534754011931" expanded="true" signature="27:98" ph="/// Interaction logic for App.xaml ... " />
-            <marker date="1534754011931" expanded="true" signature="127:139" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bank skole/src/db/CustomerDB.cs">
+    <entry file="file://$PROJECT_DIR$/Bank skole/src/accessLayer/CustomerDB.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           <folding>
-            <marker date="1534806870886" expanded="true" signature="6:182" ph="..." />
-            <marker date="1534806870886" expanded="true" signature="207:1227" ph="{...}" />
-            <marker date="1534806870886" expanded="true" signature="252:1225" ph="{...}" />
-            <marker date="1534806870886" expanded="true" signature="326:346" ph="{...}" />
-            <marker date="1534806870886" expanded="true" signature="481:790" ph="{...}" />
-            <marker date="1534806870886" expanded="true" signature="545:744" ph="{...}" />
-            <marker date="1534806870886" expanded="true" signature="850:948" ph="{...}" />
-            <marker date="1534806870886" expanded="true" signature="1129:1219" ph="{...}" />
+            <marker date="1534844285114" expanded="true" signature="6:149" ph="..." />
+            <marker date="1534844285114" expanded="true" signature="183:933" ph="{...}" />
+            <marker date="1534844285114" expanded="true" signature="228:931" ph="{...}" />
+            <marker date="1534844285114" expanded="true" signature="302:322" ph="{...}" />
+            <marker date="1534844285114" expanded="true" signature="457:766" ph="{...}" />
+            <marker date="1534844285114" expanded="true" signature="521:720" ph="{...}" />
+            <marker date="1534844285114" expanded="true" signature="826:924" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bank skole/src/models/Customer.cs">
+    <entry file="file://$PROJECT_DIR$/Bank skole/src/collections/Customer.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
           <folding>
-            <marker date="1534806136120" expanded="true" signature="42:268" ph="{...}" />
-            <marker date="1534806136120" expanded="true" signature="70:266" ph="{...}" />
+            <marker date="1534844285086" expanded="true" signature="47:273" ph="{...}" />
+            <marker date="1534844285086" expanded="true" signature="75:271" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bank skole/src/models/Transaction.cs">
+    <entry file="file://$PROJECT_DIR$/Bank skole/src/collections/Transaction.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
           <folding>
-            <marker date="1534806148330" expanded="true" signature="42:246" ph="{...}" />
-            <marker date="1534806148330" expanded="true" signature="73:244" ph="{...}" />
+            <marker date="1534844192103" expanded="true" signature="47:251" ph="{...}" />
+            <marker date="1534844192103" expanded="true" signature="78:249" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bank skole/src/models/Account.cs">
+    <entry file="file://$PROJECT_DIR$/Bank skole/src/collections/Account.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <marker date="1534806129590" expanded="false" signature="6:47" ph="..." />
-            <marker date="1534806129590" expanded="true" signature="76:420" ph="{...}" />
-            <marker date="1534806129590" expanded="true" signature="103:418" ph="{...}" />
+            <marker date="1534844285153" expanded="true" signature="6:47" ph="..." />
+            <marker date="1534844285153" expanded="true" signature="81:425" ph="{...}" />
+            <marker date="1534844285153" expanded="true" signature="108:423" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bank skole/src/db/DB.cs">
+    <entry file="file://$PROJECT_DIR$/Bank skole/src/accessLayer/DB.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
           <folding>
-            <marker date="1534760895783" expanded="true" signature="6:105" ph="..." />
-            <marker date="1534760895783" expanded="true" signature="169:831" ph="{...}" />
-            <marker date="1534760895783" expanded="true" signature="310:398" ph="{...}" />
-            <marker date="1534760895783" expanded="true" signature="449:522" ph="{...}" />
-            <marker date="1534760895783" expanded="true" signature="593:677" ph="{...}" />
-            <marker date="1534760895783" expanded="true" signature="742:825" ph="{...}" />
+            <marker date="1534837834372" expanded="false" signature="6:105" ph="..." />
+            <marker date="1534837834372" expanded="true" signature="139:842" ph="{...}" />
+            <marker date="1534837834372" expanded="true" signature="178:840" ph="{...}" />
+            <marker date="1534837834372" expanded="true" signature="319:407" ph="{...}" />
+            <marker date="1534837834372" expanded="true" signature="458:531" ph="{...}" />
+            <marker date="1534837834372" expanded="true" signature="602:686" ph="{...}" />
+            <marker date="1534837834372" expanded="true" signature="751:834" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -466,38 +762,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bank skole/src/controllers/CustomerController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bank skole/src/models/AccountTypes.cs" />
     <entry file="file://$PROJECT_DIR$/Bank skole/App.xaml.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1534754011931" expanded="true" signature="27:98" ph="/// Interaction logic for App.xaml ... " />
-            <marker date="1534754011931" expanded="true" signature="127:139" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bank skole/src/db/DB.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding>
-            <marker date="1534760895783" expanded="true" signature="6:105" ph="..." />
-            <marker date="1534760895783" expanded="true" signature="169:831" ph="{...}" />
-            <marker date="1534760895783" expanded="true" signature="310:398" ph="{...}" />
-            <marker date="1534760895783" expanded="true" signature="449:522" ph="{...}" />
-            <marker date="1534760895783" expanded="true" signature="593:677" ph="{...}" />
-            <marker date="1534760895783" expanded="true" signature="742:825" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Bank skole/MainWindow.xaml.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -511,16 +778,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bank skole/src/db/AccountDB.cs">
+    <entry file="file://$PROJECT_DIR$/Bank skole/Bank skole.csproj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <marker date="1534762017751" expanded="true" signature="6:130" ph="..." />
-            <marker date="1534762017751" expanded="true" signature="198:426" ph="{...}" />
-            <marker date="1534762017751" expanded="true" signature="270:291" ph="{...}" />
-            <marker date="1534762017751" expanded="true" signature="347:420" ph="{...}" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="125" column="33" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -528,81 +789,307 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bank skole/src/controllers/CustomerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bank skole/src/accessLayer/AccountDB.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
-            <marker date="1534806030279" expanded="true" signature="32:93" ph="{...}" />
-            <marker date="1534806030279" expanded="true" signature="69:91" ph="{...}" />
+            <marker date="1534844211518" expanded="true" signature="6:135" ph="..." />
+            <marker date="1534844211518" expanded="true" signature="169:442" ph="{...}" />
+            <marker date="1534844211518" expanded="true" signature="212:440" ph="{...}" />
+            <marker date="1534844211518" expanded="true" signature="284:305" ph="{...}" />
+            <marker date="1534844211518" expanded="true" signature="361:434" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bank skole/src/accessLayer/DB.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <marker date="1534837834372" expanded="false" signature="6:105" ph="..." />
+            <marker date="1534837834372" expanded="true" signature="139:842" ph="{...}" />
+            <marker date="1534837834372" expanded="true" signature="178:840" ph="{...}" />
+            <marker date="1534837834372" expanded="true" signature="319:407" ph="{...}" />
+            <marker date="1534837834372" expanded="true" signature="458:531" ph="{...}" />
+            <marker date="1534837834372" expanded="true" signature="602:686" ph="{...}" />
+            <marker date="1534837834372" expanded="true" signature="751:834" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bank skole/src/accessLayer/DBConnection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding>
+            <marker date="1534837834409" expanded="true" signature="55:659" ph="{...}" />
+            <marker date="1534837834409" expanded="true" signature="87:657" ph="{...}" />
+            <marker date="1534837834409" expanded="true" signature="234:522" ph="{...}" />
+            <marker date="1534837834409" expanded="true" signature="260:512" ph="{...}" />
+            <marker date="1534837834409" expanded="true" signature="313:439" ph="{...}" />
+            <marker date="1534837834409" expanded="true" signature="569:651" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bank skole/src/accessLayer/CustomerDB.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+          <folding>
+            <marker date="1534844285114" expanded="true" signature="6:149" ph="..." />
+            <marker date="1534844285114" expanded="true" signature="183:933" ph="{...}" />
+            <marker date="1534844285114" expanded="true" signature="228:931" ph="{...}" />
+            <marker date="1534844285114" expanded="true" signature="302:322" ph="{...}" />
+            <marker date="1534844285114" expanded="true" signature="457:766" ph="{...}" />
+            <marker date="1534844285114" expanded="true" signature="521:720" ph="{...}" />
+            <marker date="1534844285114" expanded="true" signature="826:924" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E4546037-3D02-406C-AA6C-360C17465823/3c/12379876/String.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8340">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bank skole/Properties/Resources.resx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bank skole/Properties/Annotations.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1534844050185" expanded="true" signature="0:1096" ph="/* MIT License ... */" />
+            <marker date="1534844050185" expanded="true" signature="1142:1429" ph="/* ReSharper disable UnusedMember.Global ... */" />
+            <marker date="1534844050185" expanded="true" signature="1463:41719" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="1468:1881" ph="/// Indicates that the value of the marked element could be &lt;c&gt;null&lt;/c&gt; sometimes, ... " />
+            <marker date="1534844050185" expanded="true" signature="1884:2163" ph="[...]" />
+            <marker date="1534844050185" expanded="true" signature="2224:2480" ph="/// Indicates that the value of the marked element could never be &lt;c&gt;null&lt;/c&gt;. ... " />
+            <marker date="1534844050185" expanded="true" signature="2483:2762" ph="[...]" />
+            <marker date="1534844050185" expanded="true" signature="2821:3103" ph="/// Can be appplied to symbols of types derived from IEnumerable as well as to symbols of Task ... " />
+            <marker date="1534844050185" expanded="true" signature="3106:3266" ph="[...]" />
+            <marker date="1534844050185" expanded="true" signature="3329:3605" ph="/// Can be appplied to symbols of types derived from IEnumerable as well as to symbols of Task ... " />
+            <marker date="1534844050185" expanded="true" signature="3608:3768" ph="[...]" />
+            <marker date="1534844050185" expanded="true" signature="3833:4433" ph="/// Indicates that the marked method builds string by format pattern and (optional) arguments. ... " />
+            <marker date="1534844050185" expanded="true" signature="4436:4573" ph="[...]" />
+            <marker date="1534844050185" expanded="true" signature="4635:5004" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="4644:4791" ph="/// &lt;param name=&quot;formatParameterName&quot;&gt; ... " />
+            <marker date="1534844050185" expanded="true" signature="4868:4929" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="5008:5197" ph="/// For a parameter that is expected to be one of the limited set of values. ... " />
+            <marker date="1534844050185" expanded="true" signature="5200:5328" ph="[...]" />
+            <marker date="1534844050185" expanded="true" signature="5385:5537" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="5446:5477" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="5541:5997" ph="/// Indicates that the function argument should be string literal and match one ... " />
+            <marker date="1534844050185" expanded="true" signature="6116:7596" ph="/// Indicates that the method is contained in a type that implements ... " />
+            <marker date="1534844050185" expanded="true" signature="7714:7978" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="7858:7907" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="7982:10093" ph="/// Describes dependency between method input and output. ... " />
+            <marker date="1534844050185" expanded="true" signature="10221:10613" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="10414:10494" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="10617:10892" ph="/// Indicates that marked element should be localized or not. ... " />
+            <marker date="1534844050185" expanded="true" signature="10997:11209" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="11118:11157" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="11213:11865" ph="/// Indicates that the value of the marked type (or its derivatives) ... " />
+            <marker date="1534844050185" expanded="true" signature="12042:12529" ph="/// When applied to a target attribute, specifies a requirement for any type marked ... " />
+            <marker date="1534844050185" expanded="true" signature="12694:12861" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="12760:12799" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="12865:13088" ph="/// Indicates that the marked symbol is used implicitly (e.g. via reflection, in external library), ... " />
+            <marker date="1534844050185" expanded="true" signature="13187:13901" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="13680:13760" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="13905:14095" ph="/// Should be used on attributes and causes ReSharper to not mark symbols marked with such attributes ... " />
+            <marker date="1534844050185" expanded="true" signature="14234:14990" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="14735:14815" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="15036:15672" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="15300:15497" ph="/// Indicates implicit instantiation of a type with fixed constructor signature. ... " />
+            <marker date="1534844050185" expanded="true" signature="15676:15860" ph="/// Specify what is considered used implicitly when marked ... " />
+            <marker date="1534844050185" expanded="true" signature="15907:16186" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="16190:16345" ph="/// This attribute is intended to mark publicly available API ... " />
+            <marker date="1534844050185" expanded="true" signature="16455:16654" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="16552:16589" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="16658:17004" ph="/// Tells code analysis engine if the parameter is completely handled when the invoked method is on stack. ... " />
+            <marker date="1534844050185" expanded="true" signature="17116:17495" ph="/// Indicates that a method does not make any observable state changes. ... " />
+            <marker date="1534844050185" expanded="true" signature="17595:17698" ph="/// Indicates that the return value of method invocation must be used. ... " />
+            <marker date="1534844050185" expanded="true" signature="17804:18045" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="17925:17974" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="18049:18717" ph="/// Indicates the type member or parameter of some type, that should be used instead of all other ways ... " />
+            <marker date="1534844050185" expanded="true" signature="18720:18968" ph="[...]" />
+            <marker date="1534844050185" expanded="true" signature="19035:19220" ph="/// Indicates that a parameter is a path to a file or a folder within a web project. ... " />
+            <marker date="1534844050185" expanded="true" signature="19324:19550" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="19445:19484" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="19554:20693" ph="/// An extension method marked with this attribute is processed by ReSharper code completion ... " />
+            <marker date="1534844050185" expanded="true" signature="20803:22097" ph="/// Allows specifying a macro for a parameter of a &lt;see cref=&quot;SourceTemplateAttribute&quot;&gt;source template&lt;/see&gt;. ... " />
+            <marker date="1534844050185" expanded="true" signature="22241:23329" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="22250:22451" ph="/// Allows specifying a macro that will be executed for a &lt;see cref=&quot;SourceTemplateAttribute&quot;&gt;source template&lt;/se ... " />
+            <marker date="1534844050185" expanded="true" signature="22512:23018" ph="/// Allows specifying which occurrence of the target parameter becomes editable when the template is deployed. ... " />
+            <marker date="1534844050185" expanded="true" signature="23062:23274" ph="/// Identifies the target parameter of a &lt;see cref=&quot;SourceTemplateAttribute&quot;&gt;source template&lt;/see&gt; if the ... " />
+            <marker date="1534844050185" expanded="true" signature="23525:23702" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="23605:23640" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="23903:24085" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="23988:24023" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="24279:24454" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="24357:24392" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="24646:24819" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="24722:24757" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="25016:25194" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="25097:25132" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="25384:25555" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="25458:25493" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="25559:25930" ph="/// ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter ... " />
+            <marker date="1534844050185" expanded="true" signature="26059:26304" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="26172:26229" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="26308:26555" ph="/// ASP.NET MVC attribute. Indicates that a parameter is an MVC area. ... " />
+            <marker date="1534844050185" expanded="true" signature="26656:26897" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="26765:26822" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="26901:27288" ph="/// ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter is ... " />
+            <marker date="1534844050185" expanded="true" signature="27421:27674" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="27542:27599" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="27678:27893" ph="/// ASP.NET MVC attribute. Indicates that a parameter is an MVC Master. Use this attribute ... " />
+            <marker date="1534844050185" expanded="true" signature="28004:28223" ph="/// ASP.NET MVC attribute. Indicates that a parameter is an MVC model type. Use this attribute ... " />
+            <marker date="1534844050185" expanded="true" signature="28337:28723" ph="/// ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter is an MVC ... " />
+            <marker date="1534844050185" expanded="true" signature="28865:28995" ph="/// ASP.NET MVC attribute. Allows disabling inspections for MVC views within a class or a method. ... " />
+            <marker date="1534844050185" expanded="true" signature="29139:29398" ph="/// ASP.NET MVC attribute. Indicates that a parameter is an MVC display template. ... " />
+            <marker date="1534844050185" expanded="true" signature="29518:29773" ph="/// ASP.NET MVC attribute. Indicates that a parameter is an MVC editor template. ... " />
+            <marker date="1534844050185" expanded="true" signature="29892:30137" ph="/// ASP.NET MVC attribute. Indicates that a parameter is an MVC template. ... " />
+            <marker date="1534844050185" expanded="true" signature="30250:30591" ph="/// ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter ... " />
+            <marker date="1534844050185" expanded="true" signature="30726:30878" ph="/// ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter ... " />
+            <marker date="1534844050185" expanded="true" signature="30996:31217" ph="/// ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter ... " />
+            <marker date="1534844050185" expanded="true" signature="31365:31785" ph="/// ASP.NET MVC attribute. When applied to a parameter of an attribute, ... " />
+            <marker date="1534844050185" expanded="true" signature="32094:32305" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="32212:32243" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="32468:32625" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="32534:32565" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="32629:32866" ph="/// Razor attribute. Indicates that a parameter or a method is a Razor section. ... " />
+            <marker date="1534844050185" expanded="true" signature="33003:33165" ph="/// Indicates how method, constructor invocation or property access ... " />
+            <marker date="1534844050185" expanded="true" signature="33328:33555" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="33412:33475" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="33601:34070" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="34074:34350" ph="/// Indicates that the marked method is assertion method, i.e. it halts control flow if ... " />
+            <marker date="1534844050185" expanded="true" signature="34461:34719" ph="/// Indicates the condition parameter of the assertion method. The method itself should be ... " />
+            <marker date="1534844050185" expanded="true" signature="34828:35033" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="34909:34958" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="35037:35239" ph="/// Specifies assertion type. If the assertion method argument satisfies the condition, ... " />
+            <marker date="1534844050185" expanded="true" signature="35276:35666" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="35670:35851" ph="/// Indicates that the marked method unconditionally terminates control flow execution. ... " />
+            <marker date="1534844050185" expanded="true" signature="36024:36304" ph="/// Indicates that method is pure LINQ method, with postponed enumeration (like Enumerable.Select, ... " />
+            <marker date="1534844050185" expanded="true" signature="36410:36514" ph="/// Indicates that IEnumerable, passed as parameter, is not enumerated. ... " />
+            <marker date="1534844050185" expanded="true" signature="36626:36718" ph="/// Indicates that parameter is regular expression pattern. ... " />
+            <marker date="1534844050185" expanded="true" signature="36829:37052" ph="/// Prevents the Member Reordering feature from tossing members of the marked class. ... " />
+            <marker date="1534844050185" expanded="true" signature="37055:37179" ph="[...]" />
+            <marker date="1534844050185" expanded="true" signature="37240:37468" ph="/// XAML attribute. Indicates the type that has &lt;c&gt;ItemsSource&lt;/c&gt; property and should be treated ... " />
+            <marker date="1534844050185" expanded="true" signature="37579:38064" ph="/// XAML attribute. Indicates the property of some &lt;c&gt;BindingBase&lt;/c&gt;-derived type, that ... " />
+            <marker date="1534844050185" expanded="true" signature="38316:38608" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="38414:38484" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="39117:39296" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="39190:39231" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="39402:39624" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="39543:39620" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="39757:39916" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="39825:39856" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="40043:40314" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="40133:40193" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="40441:40614" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="40508:40549" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="40744:41151" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="40815:40860" ph="{...}" />
+            <marker date="1534844050185" expanded="true" signature="40944:41022" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bank skole/src/viewModels/ViewModelBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <marker date="1534844132282" expanded="true" signature="6:97" ph="..." />
+            <marker date="1534844132282" expanded="true" signature="130:528" ph="{...}" />
+            <marker date="1534844132282" expanded="true" signature="197:526" ph="{...}" />
+            <marker date="1534844132282" expanded="true" signature="407:520" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bank skole/src/collections/Account.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding>
+            <marker date="1534844285153" expanded="true" signature="6:47" ph="..." />
+            <marker date="1534844285153" expanded="true" signature="81:425" ph="{...}" />
+            <marker date="1534844285153" expanded="true" signature="108:423" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bank skole/src/collections/Customer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding>
+            <marker date="1534844285086" expanded="true" signature="47:273" ph="{...}" />
+            <marker date="1534844285086" expanded="true" signature="75:271" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bank skole/src/collections/Transaction.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding>
+            <marker date="1534844192103" expanded="true" signature="47:251" ph="{...}" />
+            <marker date="1534844192103" expanded="true" signature="78:249" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Bank skole/src/models/Account.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        <state relative-caret-position="60">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
           <folding>
-            <marker date="1534806129590" expanded="false" signature="6:47" ph="..." />
-            <marker date="1534806129590" expanded="true" signature="76:420" ph="{...}" />
-            <marker date="1534806129590" expanded="true" signature="103:418" ph="{...}" />
+            <marker date="1534844211684" expanded="true" signature="27:77" ph="{...}" />
+            <marker date="1534844211684" expanded="true" signature="54:75" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Bank skole/src/models/Customer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           <folding>
-            <marker date="1534806136120" expanded="true" signature="42:268" ph="{...}" />
-            <marker date="1534806136120" expanded="true" signature="70:266" ph="{...}" />
+            <marker date="1534844247828" expanded="true" signature="27:78" ph="{...}" />
+            <marker date="1534844247828" expanded="true" signature="55:76" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Bank skole/src/models/Transaction.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           <folding>
-            <marker date="1534806148330" expanded="true" signature="42:246" ph="{...}" />
-            <marker date="1534806148330" expanded="true" signature="73:244" ph="{...}" />
+            <marker date="1534844260496" expanded="true" signature="27:81" ph="{...}" />
+            <marker date="1534844260496" expanded="true" signature="58:79" ph="{...}" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bank skole/src/db/CustomerDB.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="42" column="68" selection-start-line="42" selection-start-column="68" selection-end-line="42" selection-end-column="68" />
-          <folding>
-            <marker date="1534806870886" expanded="true" signature="6:182" ph="..." />
-            <marker date="1534806870886" expanded="true" signature="207:1227" ph="{...}" />
-            <marker date="1534806870886" expanded="true" signature="252:1225" ph="{...}" />
-            <marker date="1534806870886" expanded="true" signature="326:346" ph="{...}" />
-            <marker date="1534806870886" expanded="true" signature="481:790" ph="{...}" />
-            <marker date="1534806870886" expanded="true" signature="545:744" ph="{...}" />
-            <marker date="1534806870886" expanded="true" signature="850:948" ph="{...}" />
-            <marker date="1534806870886" expanded="true" signature="1129:1219" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bank skole/src/db/DBConnection.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding>
-            <marker date="1534769548281" expanded="true" signature="46:650" ph="{...}" />
-            <marker date="1534769548281" expanded="true" signature="78:648" ph="{...}" />
-            <marker date="1534769548281" expanded="true" signature="225:513" ph="{...}" />
-            <marker date="1534769548281" expanded="true" signature="251:503" ph="{...}" />
-            <marker date="1534769548281" expanded="true" signature="304:430" ph="{...}" />
-            <marker date="1534769548281" expanded="true" signature="560:642" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bank skole/Bank skole.csproj">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
