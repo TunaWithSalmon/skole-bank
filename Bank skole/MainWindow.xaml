@@ -55,17 +55,8 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="30" />
             </Grid.ColumnDefinitions>
-            <!--<ListBox Name="CustomerList" Grid.Column="0">
+            <ListBox Name="CustomerList" Grid.Column="0">
 
-            </ListBox>-->
-            <ListBox Margin="20" ItemsSource="{Binding Items}">
-                <ListBox.ItemTemplate>
-                    <DataTemplate>
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="{Binding}" />
-                        </StackPanel>
-                    </DataTemplate>
-                </ListBox.ItemTemplate>
             </ListBox>
 
         </Grid>
