@@ -1,0 +1,28 @@
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\bin\bacnk_web.dll
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\bin\bacnk_web.pdb
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\bin\Newtonsoft.Json.dll
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\bin\System.Net.Http.Formatting.dll
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\bin\System.Web.Helpers.dll
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\bin\System.Web.Http.dll
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\bin\System.Web.Http.WebHost.dll
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\bin\System.Web.Mvc.dll
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\bin\System.Web.Razor.dll
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\bin\System.Web.WebPages.dll
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\bin\Newtonsoft.Json.xml
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\bin\System.Net.Http.Formatting.xml
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\bin\System.Web.Http.xml
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\bin\System.Web.Http.WebHost.xml
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\bin\System.Web.Helpers.xml
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\bin\System.Web.Mvc.xml
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\bin\System.Web.Razor.xml
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\bin\System.Web.WebPages.xml
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\obj\Debug\bacnk web.csprojAssemblyReference.cache
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\obj\Debug\bacnk web.csproj.CoreCompileInputs.cache
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\obj\Debug\bacnk web.csproj.CopyComplete
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\obj\Debug\bacnk_web.dll
+C:\Users\Rasmus\RiderProjects\bacnk web\bacnk web\obj\Debug\bacnk_web.pdb
