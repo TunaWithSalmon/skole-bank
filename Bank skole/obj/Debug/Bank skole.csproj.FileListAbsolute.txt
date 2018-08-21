@@ -23,3 +23,7 @@ C:\Users\jhansen\Documents\GitHub\skole-bank\Bank skole\obj\Debug\Bank skole.csp
 C:\Users\jhansen\Documents\GitHub\skole-bank\Bank skole\obj\Debug\Bank skole.csproj.CopyComplete
 C:\Users\jhansen\Documents\GitHub\skole-bank\Bank skole\obj\Debug\Bank_skole.exe
 C:\Users\jhansen\Documents\GitHub\skole-bank\Bank skole\obj\Debug\Bank_skole.pdb
+C:\Users\jhansen\Documents\GitHub\skole-bank\Bank skole\obj\Debug\src\views\List Item Custom.g.cs
+C:\Users\jhansen\Documents\GitHub\skole-bank\Bank skole\obj\Debug\src\views\List Item Custom.baml
+C:\Users\jhansen\Documents\GitHub\skole-bank\Bank skole\obj\Debug\src\views\New Item.g.cs
+C:\Users\jhansen\Documents\GitHub\skole-bank\Bank skole\obj\Debug\src\views\Search Bar.g.cs
