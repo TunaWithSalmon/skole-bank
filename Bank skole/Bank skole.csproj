@@ -86,6 +86,12 @@
     <Compile Include="src\models\Account.cs" />
     <Compile Include="src\models\Customer.cs" />
     <Compile Include="src\models\Transaction.cs" />
+    <Compile Include="src\views\New Item.xaml.cs">
+      <DependentUpon>New Item.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="src\views\Search Bar.xaml.cs">
+      <DependentUpon>Search Bar.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -99,6 +105,14 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="src\views\List Item Custom.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="src\views\New Item.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="src\views\Search Bar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -121,10 +135,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="src\controllers\" />
-    <Folder Include="src\db\" />
-    <Folder Include="src\views" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

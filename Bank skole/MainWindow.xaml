@@ -22,7 +22,7 @@
             <!--Column Definitions for Seach Box and Customer Header-->
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="30" />
+                <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
             <!--Row Definitions for Search box and Customer Header-->
             <Grid.RowDefinitions>
@@ -44,28 +44,40 @@
             <!-- + Button -->
             <Button Grid.Column="1"
                     Grid.Row="1"
-                    HorizontalContentAlignment="Center"
-                    VerticalContentAlignment="Center"
-                    Content="+"
-                    FontSize="30" >
-            </Button>
+                    FontSize="26"
+                    Content="New"/>
+
+
         </Grid>
         <!--Array list with Customers name-->
         <Grid Grid.Column="0" Grid.Row="1">
-            <ListBox Name="CustomerList">
-                
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="30" />
+            </Grid.ColumnDefinitions>
+            <!--<ListBox Name="CustomerList" Grid.Column="0">
+
+            </ListBox>-->
+            <ListBox Margin="20" ItemsSource="{Binding Items}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{Binding}" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
             </ListBox>
+
         </Grid>
 
         
         <!--Grid for Search and Account Informations-->
         <Grid Grid.Column="1" Grid.Row="0">
-            <!--Column Definitions for Seach Box and Account Header-->
+            <!--Column & Row Definitions for Seach Box and Account Header-->
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="30" />
+                <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
-            <!--Row Definitions for Search box and Account Header-->
             <Grid.RowDefinitions>
                 <RowDefinition Height="40" />
                 <RowDefinition Height="40" />
@@ -83,21 +95,84 @@
                      FontSize="26">
             </TextBlock>
             <!-- + Button -->
-            <Button Grid.Column="1"
+            <Button x:Name="AccountAdd" Grid.Column="1"
                     Grid.Row="1"
-                    HorizontalContentAlignment="Center"
-                    VerticalContentAlignment="Center"
-                    Content="+"
-                    FontSize="30" >
+                    Content="New"
+                    FontSize="26">
             </Button>
         </Grid>
         <!--Array Account List-->
         <Grid Grid.Column="1" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="30" />
+            </Grid.ColumnDefinitions>
             <ListBox Name="AccountList">
 
             </ListBox>
+
         </Grid>
-        
-        
+
+        <!--Grid for balance and Transactions-->
+        <Grid Grid.Column="2" Grid.Row="0">
+            <!--Column & Row Definitions for Blance and Transactions-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40" />
+                <RowDefinition Height="40" />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+
+            <!--Row 1 Account Num & Number-->
+            <TextBlock Grid.Column="0"
+                       Grid.Row="0"
+                       Text="Account Number"
+                       FontSize="26">
+            </TextBlock>
+            <TextBox Grid.Column="1"
+                     Grid.Row="0"
+                     BorderThickness="0"
+                     FontSize="26"
+                     HorizontalAlignment="Right">
+            </TextBox>
+
+            <!--Row 2 Balance & Amount-->
+            <TextBlock Grid.Column="0"
+                       Grid.Row="1"
+                       Text="Balance:"
+                       FontSize="26">
+            </TextBlock>
+            <TextBox Grid.Column="1"
+                     Grid.Row="1"
+                     BorderThickness="0"
+                     FontSize="26"
+                     HorizontalAlignment="Right">
+            </TextBox>
+
+            <!--Row 3 Transaction & Balance-->
+            <TextBlock Grid.Column="0"
+                       Grid.Row="2"
+                       Text="Transactioner"
+                       FontSize="20">
+            </TextBlock>
+            <TextBlock Grid.Column="1"
+                       Grid.Row="3"
+                       Text="Balance"
+                       FontSize="20"
+                       HorizontalAlignment="Right">
+            </TextBlock>
+        </Grid>
+        <Grid Grid.Column="2" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="30" />
+            </Grid.ColumnDefinitions>
+            <ListBox Name="TransactionList" >
+                
+            </ListBox>
+        </Grid>
     </Grid>
 </Window>
