@@ -1,0 +1,240 @@
+GET http://localhost:5000/Home/GetHome
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-22T075652.404.json
+
+###
+
+GET http://localhost:5000/Home/Thunk
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-22T075647.404.json
+
+###
+
+GET http://localhost:5000/Home/Thunk
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-21T112813.404.json
+
+###
+
+GET http://localhost:5000/Home/Thunk
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-21T022959.404.json
+
+###
+
+GET http://localhost:5000/api/Home/Thunk
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-21T022950.404.html
+
+###
+
+GET http://localhost:5000/api/Home/Thunk
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-21T022905.404.json
+
+###
+
+GET http://localhost:5000/api/Home/Thunk
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-21T022757.404.json
+
+###
+
+POST http://localhost:5000/api/Home/Thunk
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-21T022752.404.json
+
+###
+
+GET http://localhost:5000/api/Home/Thunk
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-21T022636.404.json
+
+###
+
+GET http://localhost:5000/api/HomeController/Thunk
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-21T022623.404.json
+
+###
+
+GET http://localhost:5000/api/HomeController/GetHome
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-21T020739.404.json
+
+###
+
+GET http://localhost:5000/api/HomeController/GetHome
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-21T020446-4.404.json
+
+###
+
+GET http://localhost:5000/api/HomeController/GetHome
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-21T020446-3.404.json
+
+###
+
+GET http://localhost:5000/api/HomeController/GetHome
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-21T020446-2.404.json
+
+###
+
+GET http://localhost:5000/api/HomeController/GetHome
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-21T020446-1.404.json
+
+###
+
+GET http://localhost:5000/api/HomeController/GetHome
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-21T020446.404.json
+
+###
+
+GET http://localhost:5000/api/HomeController/GetHome
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-21T020445-1.404.json
+
+###
+
+GET http://localhost:5000/api/HomeController/GetHome
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-21T020445.404.json
+
+###
+
+GET http://localhost:5000/api/HomeController/GetHome
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-21T020444.404.json
+
+###
+
+GET http://localhost:5000/api/HomeRoute/GetHome
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-21T020440.404.json
+
+###
+
+GET http://localhost:5000/api/Home/GetHome
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-21T020431.404.json
+
+###
+
+GET http://localhost:5000/api/Home
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-21T020426.404.json
+
+###
+
+GET http://localhost:5000/api
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-21T020420.404.json
+
+###
+
+GET http://localhost:5000/api/Home/Index
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-21T020341.404.json
+
+###
+
+GET http://localhost:8080/api/Home/Index
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/api/Home/Index
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/api/Home/Index
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/api/Home/Index
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/api/Home/GetHome
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/api/homeRoute/GetHome
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/homeRoute/GetHome
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/homeRoute
+Accept: */*
+Cache-Control: no-cache
+
+###
+
