@@ -1,19 +1,19 @@
 ﻿using MongoDB.Driver;
 
-namespace bacnk_web.Models
+namespace Banker.Db
 {
-    public class DBConnection
+    public class DbConnection
     {
         public IMongoDatabase Database;
-        private static DBConnection _instance;
+        private static DbConnection _instance;
         
-        public static DBConnection Singleton
+        public static DbConnection Singleton
         {
             get
             {
                 if (_instance == null)
                 {
-                    _instance = new DBConnection();
+                    _instance = new DbConnection();
                     return _instance;
                 }
                 else
@@ -21,7 +21,7 @@ namespace bacnk_web.Models
             }
         }        
         
-        public DBConnection()
+        public DbConnection()
         {
             Database = new MongoClient().GetDatabase("Bank");
         }

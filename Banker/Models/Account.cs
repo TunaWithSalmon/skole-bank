@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace bacnk_web.Db
+namespace Banker.Models
 {
     public class Account
     {

@@ -2,57 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d382310-20c6-48cd-bab1-fcda41825222" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.bacnk web/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.bacnk web/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.bacnk web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.bacnk web/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/App_Start/WebApiConfig.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/Db/Account.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/Db/Customer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/Db/Transaction.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/Global.asax" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/Global.asax.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/Models/AccountDB.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/Models/CustomerDB.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/Models/DB.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/Models/DBConnection.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/Routes/HomeRoute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/Web.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/bacnk web.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/bin/Microsoft.Web.Infrastructure.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/bin/Newtonsoft.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/bin/Newtonsoft.Json.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/bin/System.Net.Http.Formatting.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/bin/System.Net.Http.Formatting.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/bin/System.Web.Helpers.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/bin/System.Web.Helpers.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/bin/System.Web.Http.WebHost.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/bin/System.Web.Http.WebHost.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/bin/System.Web.Http.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/bin/System.Web.Http.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/bin/System.Web.Mvc.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/bin/System.Web.Mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/bin/System.Web.Razor.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/bin/System.Web.Razor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/bin/System.Web.WebPages.Deployment.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/bin/System.Web.WebPages.Deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/bin/System.Web.WebPages.Razor.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/bin/System.Web.WebPages.Razor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/bin/System.Web.WebPages.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/bin/System.Web.WebPages.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/bin/bacnk_web.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/bin/bacnk_web.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/obj/Debug/bacnk web.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/obj/Debug/bacnk web.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/obj/Debug/bacnk web.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/obj/Debug/bacnk web.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/obj/Debug/bacnk_web.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/obj/Debug/bacnk_web.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/packages.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bacnk web/public/index.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Banker/Controllers/TransactionController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Banker/Db/AccountDB.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Banker/Db/CustomerDB.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Banker/Models/Account.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Banker/Models/Customer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bank skole/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bank skole/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bank skole/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bank skole/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banker/Banker.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Banker/Banker.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banker/obj/Debug/Banker.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Banker/obj/Debug/Banker.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banker/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/Banker/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Db/Transaction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Banker/Models/Transaction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/DB.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Banker/Db/DB.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/DBConnection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Banker/Db/DBConnection.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,27 +25,145 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Banker.csproj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Banker/Banker.csproj">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="ValuesController.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Banker/Controllers/ValuesController.cs">
+      <file leaf-file-name="CustomerController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Banker/Controllers/CustomerController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="90">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
-                <marker date="1534921029144" expanded="false" signature="6:130" ph="..." />
-                <marker date="1534921029144" expanded="true" signature="160:544" ph="{...}" />
-                <marker date="1534921029144" expanded="true" signature="212:542" ph="{...}" />
-                <marker date="1534921029144" expanded="true" signature="252:300" ph="{...}" />
-                <marker date="1534921029144" expanded="true" signature="352:403" ph="{...}" />
-                <marker date="1534921029144" expanded="true" signature="460:480" ph="{...}" />
-                <marker date="1534921029144" expanded="true" signature="516:536" ph="{...}" />
+                <marker date="1534921361284" expanded="false" signature="6:112" ph="..." />
+                <marker date="1534921361284" expanded="true" signature="142:528" ph="{...}" />
+                <marker date="1534921361284" expanded="true" signature="196:526" ph="{...}" />
+                <marker date="1534921361284" expanded="true" signature="236:284" ph="{...}" />
+                <marker date="1534921361284" expanded="true" signature="336:387" ph="{...}" />
+                <marker date="1534921361284" expanded="true" signature="444:464" ph="{...}" />
+                <marker date="1534921361284" expanded="true" signature="500:520" ph="{...}" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Banker/Controllers/AccountController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+              <folding>
+                <marker date="1534921358858" expanded="true" signature="52:438" ph="{...}" />
+                <marker date="1534921358858" expanded="true" signature="105:436" ph="{...}" />
+                <marker date="1534921358858" expanded="true" signature="146:194" ph="{...}" />
+                <marker date="1534921358858" expanded="true" signature="246:297" ph="{...}" />
+                <marker date="1534921358858" expanded="true" signature="354:374" ph="{...}" />
+                <marker date="1534921358858" expanded="true" signature="410:430" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountDB.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Banker/Db/AccountDB.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransactionController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Banker/Controllers/TransactionController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <folding>
+                <marker date="1534921567544" expanded="true" signature="52:450" ph="{...}" />
+                <marker date="1534921567544" expanded="true" signature="109:448" ph="{...}" />
+                <marker date="1534921567544" expanded="true" signature="158:206" ph="{...}" />
+                <marker date="1534921567544" expanded="true" signature="258:309" ph="{...}" />
+                <marker date="1534921567544" expanded="true" signature="366:386" ph="{...}" />
+                <marker date="1534921567544" expanded="true" signature="422:442" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DB.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Banker/Db/DB.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              <folding>
+                <marker date="1534922127694" expanded="false" signature="6:105" ph="..." />
+                <marker date="1534922127694" expanded="true" signature="126:829" ph="{...}" />
+                <marker date="1534922127694" expanded="true" signature="165:827" ph="{...}" />
+                <marker date="1534922127694" expanded="true" signature="306:394" ph="{...}" />
+                <marker date="1534922127694" expanded="true" signature="445:518" ph="{...}" />
+                <marker date="1534922127694" expanded="true" signature="589:673" ph="{...}" />
+                <marker date="1534922127694" expanded="true" signature="738:821" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBConnection.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Banker/Db/DBConnection.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+              <folding>
+                <marker date="1534922127472" expanded="true" signature="42:646" ph="{...}" />
+                <marker date="1534922127472" expanded="true" signature="74:644" ph="{...}" />
+                <marker date="1534922127472" expanded="true" signature="221:509" ph="{...}" />
+                <marker date="1534922127472" expanded="true" signature="247:499" ph="{...}" />
+                <marker date="1534922127472" expanded="true" signature="300:426" ph="{...}" />
+                <marker date="1534922127472" expanded="true" signature="556:638" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Account.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Banker/Models/Account.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+              <folding>
+                <marker date="1534922128037" expanded="true" signature="6:47" ph="..." />
+                <marker date="1534922128037" expanded="true" signature="72:416" ph="{...}" />
+                <marker date="1534922128037" expanded="true" signature="99:414" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Customer.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Banker/Models/Customer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+              <folding>
+                <marker date="1534922127611" expanded="true" signature="38:264" ph="{...}" />
+                <marker date="1534922127611" expanded="true" signature="66:262" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Transaction.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Banker/Models/Transaction.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+              <folding>
+                <marker date="1534921826295" expanded="true" signature="38:242" ph="{...}" />
+                <marker date="1534921826295" expanded="true" signature="69:240" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerDB.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Banker/Db/CustomerDB.cs">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -92,12 +172,30 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Banker/Controllers/ValuesController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Banker/Controllers/TransactionController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Banker/Db/AccountDB.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.idea/config/applicationhost.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Banker/Controllers/AccountController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Banker/Db/CustomerDB.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Banker/Db/DB.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Banker/Db/DBConnection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Banker/Models/Account.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Banker/Models/Customer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Banker/Models/Transaction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Banker/Controllers/CustomerController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Banker/Controllers/ValuesController.cs" />
+        <option value="$PROJECT_DIR$/Banker/Controllers/CustomerController.cs" />
+        <option value="$PROJECT_DIR$/Banker/Controllers/AccountController.cs" />
+        <option value="$PROJECT_DIR$/Banker/Controllers/TransactionController.cs" />
+        <option value="$PROJECT_DIR$/Banker/Db/DB.cs" />
+        <option value="$PROJECT_DIR$/Banker/Db/DBConnection.cs" />
+        <option value="$PROJECT_DIR$/Banker/Models/Account.cs" />
+        <option value="$PROJECT_DIR$/Banker/Models/Customer.cs" />
+        <option value="$PROJECT_DIR$/Banker/Models/Transaction.cs" />
       </list>
     </option>
   </component>
@@ -1530,13 +1628,41 @@
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Bank skole" type="6f407253:SolutionExplorerNodeFileSystem" />
-              <item name="Banker" type="6f407253:SolutionExplorerNodeFileSystem" />
+              <item name="Bank skole (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Bank skole" type="6f407253:SolutionExplorerNodeFileSystem" />
-              <item name="Banker" type="6f407253:SolutionExplorerNodeFileSystem" />
-              <item name="Controllers" type="6f407253:SolutionExplorerNodeFileSystem" />
+              <item name="Bank skole (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Banker (not built)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Bank skole" type="6f407253:SolutionExplorerNodeFileSystem" />
+              <item name="Bank skole (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Banker (not built)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="App_Start" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Bank skole" type="6f407253:SolutionExplorerNodeFileSystem" />
+              <item name="Bank skole (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Banker (not built)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Bank skole" type="6f407253:SolutionExplorerNodeFileSystem" />
+              <item name="Bank skole (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Banker (not built)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Db" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Bank skole" type="6f407253:SolutionExplorerNodeFileSystem" />
+              <item name="Bank skole (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Banker (not built)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -1550,6 +1676,7 @@
   <component name="PropertiesComponent">
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Banker/Banker.csproj" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1563,6 +1690,25 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2d382310-20c6-48cd-bab1-fcda41825222" name="Default" comment="" />
@@ -1570,12 +1716,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920730818</updated>
-      <workItem from="1534920732132" duration="301000" />
+      <workItem from="1534920732132" duration="1386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301000" />
+    <option name="totallyTimeSpent" value="1386000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1597,8 +1743,8 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32933334" />
+      <window_info anchor="bottom" id="NuGet" weight="0.32933334" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494331" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
@@ -1613,27 +1759,162 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="NuGet" order="0" weight="0.32933334" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="9" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2494331" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="3" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="right" id="Errors In Solution" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32933334" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Banker/Banker.csproj">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Banker/Controllers/ValuesController.cs">
+    <entry file="file://$PROJECT_DIR$/Bank skole.sln">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Banker/Controllers/AccountController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="75">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
           <folding>
-            <marker date="1534921029144" expanded="false" signature="6:130" ph="..." />
-            <marker date="1534921029144" expanded="true" signature="160:544" ph="{...}" />
-            <marker date="1534921029144" expanded="true" signature="212:542" ph="{...}" />
-            <marker date="1534921029144" expanded="true" signature="252:300" ph="{...}" />
-            <marker date="1534921029144" expanded="true" signature="352:403" ph="{...}" />
-            <marker date="1534921029144" expanded="true" signature="460:480" ph="{...}" />
-            <marker date="1534921029144" expanded="true" signature="516:536" ph="{...}" />
+            <marker date="1534921358858" expanded="true" signature="52:438" ph="{...}" />
+            <marker date="1534921358858" expanded="true" signature="105:436" ph="{...}" />
+            <marker date="1534921358858" expanded="true" signature="146:194" ph="{...}" />
+            <marker date="1534921358858" expanded="true" signature="246:297" ph="{...}" />
+            <marker date="1534921358858" expanded="true" signature="354:374" ph="{...}" />
+            <marker date="1534921358858" expanded="true" signature="410:430" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Banker/Db/CustomerDB.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Banker/Db/AccountDB.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Banker/Controllers/CustomerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <marker date="1534921361284" expanded="false" signature="6:112" ph="..." />
+            <marker date="1534921361284" expanded="true" signature="142:528" ph="{...}" />
+            <marker date="1534921361284" expanded="true" signature="196:526" ph="{...}" />
+            <marker date="1534921361284" expanded="true" signature="236:284" ph="{...}" />
+            <marker date="1534921361284" expanded="true" signature="336:387" ph="{...}" />
+            <marker date="1534921361284" expanded="true" signature="444:464" ph="{...}" />
+            <marker date="1534921361284" expanded="true" signature="500:520" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Banker/Controllers/TransactionController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <marker date="1534921567544" expanded="true" signature="52:450" ph="{...}" />
+            <marker date="1534921567544" expanded="true" signature="109:448" ph="{...}" />
+            <marker date="1534921567544" expanded="true" signature="158:206" ph="{...}" />
+            <marker date="1534921567544" expanded="true" signature="258:309" ph="{...}" />
+            <marker date="1534921567544" expanded="true" signature="366:386" ph="{...}" />
+            <marker date="1534921567544" expanded="true" signature="422:442" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Banker/Db/DB.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <marker date="1534922127694" expanded="false" signature="6:105" ph="..." />
+            <marker date="1534922127694" expanded="true" signature="126:829" ph="{...}" />
+            <marker date="1534922127694" expanded="true" signature="165:827" ph="{...}" />
+            <marker date="1534922127694" expanded="true" signature="306:394" ph="{...}" />
+            <marker date="1534922127694" expanded="true" signature="445:518" ph="{...}" />
+            <marker date="1534922127694" expanded="true" signature="589:673" ph="{...}" />
+            <marker date="1534922127694" expanded="true" signature="738:821" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Banker/Db/DBConnection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <marker date="1534922127472" expanded="true" signature="42:646" ph="{...}" />
+            <marker date="1534922127472" expanded="true" signature="74:644" ph="{...}" />
+            <marker date="1534922127472" expanded="true" signature="221:509" ph="{...}" />
+            <marker date="1534922127472" expanded="true" signature="247:499" ph="{...}" />
+            <marker date="1534922127472" expanded="true" signature="300:426" ph="{...}" />
+            <marker date="1534922127472" expanded="true" signature="556:638" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Banker/Models/Account.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding>
+            <marker date="1534922128037" expanded="true" signature="6:47" ph="..." />
+            <marker date="1534922128037" expanded="true" signature="72:416" ph="{...}" />
+            <marker date="1534922128037" expanded="true" signature="99:414" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Banker/Models/Customer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding>
+            <marker date="1534922127611" expanded="true" signature="38:264" ph="{...}" />
+            <marker date="1534922127611" expanded="true" signature="66:262" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Banker/Models/Transaction.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <marker date="1534921826295" expanded="true" signature="38:242" ph="{...}" />
+            <marker date="1534921826295" expanded="true" signature="69:240" ph="{...}" />
           </folding>
         </state>
       </provider>

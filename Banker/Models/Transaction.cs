@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace bacnk_web.Db
+namespace Banker.Models
 {
     public class Transaction
     {

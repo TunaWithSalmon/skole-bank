@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using MongoDB.Bson;
 using MongoDB.Driver;
 
-namespace bacnk_web.Models
+namespace Banker.Db
 {
     public abstract class DB<TModel>
     {
