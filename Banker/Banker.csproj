@@ -116,6 +116,7 @@
     <Compile Include="Db\CustomerDB.cs" />
     <Compile Include="Db\DB.cs" />
     <Compile Include="Db\DBConnection.cs" />
+    <Compile Include="Db\TransactionDB.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
