@@ -2,9 +2,10 @@
 
 namespace Banker.Models
 {
+    [Serializable]
     public class Customer
     {
-        public int _id;
+        public MongoDB.Bson.ObjectId _id;
         public string FirstName;
         public string LastName;
         public string Cpr; 

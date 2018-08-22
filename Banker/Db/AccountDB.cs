@@ -13,9 +13,14 @@ namespace bacnk_web.Models
         { 
         }
 
-        public async Task<List<Account>> GetAccounts()
+        public async Task<Account> GetAccount(string id)
         {
-            return await GetAll(new BsonDocument());
+            return await GetOne(new BsonDocument("_id", ObjectId.Parse(id)));
+        }
+
+        public async Task<List<Account>> GetAccounts(string id)
+        {
+            return await GetAll(new BsonDocument("CustomerId", ObjectId.Parse(id)));
         }
     }
 }

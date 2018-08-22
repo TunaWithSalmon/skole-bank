@@ -1,25 +1,25 @@
-﻿using System.Web.Http;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using System.Web.Http;
+using bacnk_web.Models;
+using Banker.Db;
+using Banker.Models;
+using Newtonsoft.Json;
 
 namespace Banker.Controllers
 {
     public class AccountController : ApiController
     { 
-        public string Get(int id)
+        public async Task<Account> GetAccount(string id)
         {
-            return "value";
+            var accountDB = new AccountDB(DbConnection.Singleton.Database);
+            return await accountDB.GetAccount(id);
         }
 
-        public string Post([FromBody]string value)
+        public async Task<List<Account>> GetAccounts(string id)
         {
-            return $"{value}";
-        }
-
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        public void Delete(int id)
-        {
+            var accountDB = new AccountDB(DbConnection.Singleton.Database);
+            return await accountDB.GetAccounts(id);
         }
     }
 }

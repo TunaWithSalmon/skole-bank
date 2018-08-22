@@ -2,9 +2,10 @@
 
 namespace Banker.Models
 {
+    [Serializable]
     public class Transaction
     {
-        public int _id;
+        public MongoDB.Bson.ObjectId _id;
         public string TransactionName;
         public float Amount;
         public DateTime Created;

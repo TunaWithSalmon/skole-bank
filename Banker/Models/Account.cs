@@ -3,9 +3,10 @@ using System.Collections.Generic;
 
 namespace Banker.Models
 {
+    [Serializable]
     public class Account
     {
-        public int _id;
+        public MongoDB.Bson.ObjectId _id;
         public int CustomerId;
         public int AccountNumber;
         public string AccountType;

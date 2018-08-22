@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Banker.Db;
 using Banker.Models;
@@ -33,6 +34,11 @@ namespace bacnk_web.Models
         public async Task<Customer> GetCustomer(string id)
         {
             return await GetOne(new BsonDocument("_id", ObjectId.Parse(id)));
+        }
+
+        public async Task<List<Customer>> GetCustomers()
+        {
+            return await GetAll(new BsonDocument());
         }
 
     }

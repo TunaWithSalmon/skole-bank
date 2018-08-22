@@ -13,7 +13,9 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="AccountController.cs" t="Include" />
+          <e p="AccountsController.cs" t="Include" />
           <e p="CustomerController.cs" t="Include" />
+          <e p="CustomersController.cs" t="Include" />
           <e p="TransactionController.cs" t="Include" />
         </e>
         <e p="Db" t="Include">

@@ -1,29 +1,32 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using System.Web.Http;
+using bacnk_web.Models;
+using Banker.Db;
+using Banker.Models;
 
 namespace Banker.Controllers
 {
     public class CustomerController : ApiController
     {
-        public string Get(int id)
+        public async Task<Customer> GetCustomer(string id)
         {
-            return "value";
+            var customerDB = new CustomerDB(DbConnection.Singleton.Database);
+            return await customerDB.GetCustomer(id);
         }
 
-        public string Post([FromBody]string value)
+        public async Task<List<Customer>> GetCustomers()
         {
-            return $"{value}";
+            var customerDB = new CustomerDB(DbConnection.Singleton.Database);
+            return await customerDB.GetCustomers();
         }
 
-        public void Put(int id, [FromBody]string value)
+        public async Task<string> PostCostumer([FromBody]Customer accountJson)
         {
-        }
-
-        public void Delete(int id)
-        {
+        
+            var customerDB = new CustomerDB(DbConnection.Singleton.Database);
+            await customerDB.CreateCustomer(accountJson.FirstName, accountJson.LastName, accountJson.Cpr);
+            return "Success";
         }
     }
 }
