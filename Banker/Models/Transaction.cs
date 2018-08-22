@@ -6,6 +6,7 @@ namespace Banker.Models
     public class Transaction
     {
         public MongoDB.Bson.ObjectId _id;
+        public MongoDB.Bson.ObjectId AccountId;
         public string TransactionName;
         public float Amount;
         public DateTime Created;
