@@ -1,6 +1,10 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.0.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banker", "Banker\Banker.csproj", "{D3FDB94E-8551-47C3-9B5A-3BB2857F77F2}"
+EndProject
 Global
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+	EndGlobalSection
 EndGlobal
