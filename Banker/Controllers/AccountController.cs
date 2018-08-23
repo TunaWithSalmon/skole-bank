@@ -21,5 +21,13 @@ namespace Banker.Controllers
             var accountDB = new AccountDB(DbConnection.Singleton.Database);
             return await accountDB.GetAccounts(id);
         }
+
+        public async Task<string> PostAccount([FromBody]Account accountJson)
+        {
+
+            var accountDB = new AccountDB(DbConnection.Singleton.Database);
+            await accountDB.CreateAccount(accountJson.AccountType, accountJson.CustomerId);
+            return "Success";
+        }
     }
 }

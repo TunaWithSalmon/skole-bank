@@ -21,7 +21,7 @@ namespace Banker.Controllers
             return await customerDB.GetCustomers();
         }
 
-        public async Task<string> PostCostumer([FromBody]Customer accountJson)
+        public async Task<string> PostCustomer([FromBody]Customer accountJson)
         {
         
             var customerDB = new CustomerDB(DbConnection.Singleton.Database);

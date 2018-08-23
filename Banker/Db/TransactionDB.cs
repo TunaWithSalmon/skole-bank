@@ -16,7 +16,7 @@ namespace bacnk_web.Models
 
         public async Task CreateTransaction(
             string name,
-            int amount
+            float amount
         )
         {
             var newTrans = new Transaction()
