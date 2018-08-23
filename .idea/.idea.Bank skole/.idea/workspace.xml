@@ -2,15 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d382310-20c6-48cd-bab1-fcda41825222" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/models/Account.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/models/Customer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/models/Transaction.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/AccountOverview.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/ListItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/SearchBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Transaction.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/containers/List.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/css/AccountOverview.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/css/List.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/css/ListItem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/css/SearchBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/css/Transaction.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bank skole/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bank skole/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bank skole/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bank skole/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/css/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/containers/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banker/Models/Account.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Banker/Models/Account.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/containers/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/containers/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/models/Account.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/models/Account.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/models/Transaction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/models/Transaction.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,17 +29,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AccountController.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Banker/Controllers/AccountController.cs">
+      <file leaf-file-name="ListItem.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/components/ListItem.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
-                <marker date="1534936706843" expanded="false" signature="6:171" ph="..." />
-                <marker date="1534936706843" expanded="true" signature="201:686" ph="{...}" />
-                <marker date="1534936706843" expanded="true" signature="254:684" ph="{...}" />
-                <marker date="1534936706843" expanded="true" signature="318:465" ph="{...}" />
-                <marker date="1534936706843" expanded="true" signature="530:678" ph="{...}" />
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchBar.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/components/SearchBar.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountOverview.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/components/AccountOverview.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Transaction.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/models/Transaction.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountOverview.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/css/AccountOverview.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Transaction.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/css/Transaction.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Transaction.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/components/Transaction.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -40,8 +99,8 @@
       <file leaf-file-name="App.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/containers/App.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+            <state relative-caret-position="210">
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -49,80 +108,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Customer.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/models/Customer.ts">
+      <file leaf-file-name="List.tsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/containers/List.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            <state relative-caret-position="30">
+              <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Account.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/models/Account.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Transaction.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Banker/Models/Transaction.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <marker date="1534927811329" expanded="true" signature="38:279" ph="{...}" />
-                <marker date="1534927811329" expanded="true" signature="88:277" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Transaction.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/src/models/Transaction.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Account.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Banker/Models/Account.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <marker date="1534927812811" expanded="false" signature="6:47" ph="..." />
-                <marker date="1534927812811" expanded="true" signature="72:453" ph="{...}" />
-                <marker date="1534927812811" expanded="true" signature="118:451" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/index.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Web.Debug.config" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Banker/Web.Debug.config">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/css/App.css">
+      <file leaf-file-name="ListItem.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/css/ListItem.css">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -132,6 +128,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -163,7 +160,6 @@
         <option value="$PROJECT_DIR$/Banker/Db/DB.cs" />
         <option value="$PROJECT_DIR$/Banker/Controllers/CustomerController - Copy.cs" />
         <option value="$PROJECT_DIR$/Banker/Controllers/TransactionController.cs" />
-        <option value="$PROJECT_DIR$/Banker/Models/Account.cs" />
         <option value="$PROJECT_DIR$/Banker/Models/Customer.cs" />
         <option value="$PROJECT_DIR$/Banker/Models/Transaction.cs" />
         <option value="$PROJECT_DIR$/Banker/Controllers/CustomerController.cs" />
@@ -174,10 +170,24 @@
         <option value="$PROJECT_DIR$/Banker/Global.asax.cs" />
         <option value="$PROJECT_DIR$/Banker/Controllers/AccountController.cs" />
         <option value="$PROJECT_DIR$/client/src/index.tsx" />
-        <option value="$PROJECT_DIR$/client/src/containers/App.tsx" />
         <option value="$PROJECT_DIR$/client/src/models/Customer.ts" />
         <option value="$PROJECT_DIR$/client/src/models/Account.ts" />
+        <option value="$PROJECT_DIR$/Banker/Models/Account.cs" />
+        <option value="$PROJECT_DIR$/client/src/components/ListItem.tsx.ts" />
+        <option value="$PROJECT_DIR$/client/src/css/ListItem.css" />
+        <option value="$PROJECT_DIR$/client/public/index.html" />
+        <option value="$PROJECT_DIR$/client/src/components/ListItem.tsx" />
+        <option value="$PROJECT_DIR$/client/src/css/List.css" />
+        <option value="$PROJECT_DIR$/client/src/css/SearchBar.css" />
+        <option value="$PROJECT_DIR$/client/src/components/SearchBar.tsx" />
+        <option value="$PROJECT_DIR$/client/src/css/AccountOverview.css" />
+        <option value="$PROJECT_DIR$/client/src/css/Transaction.css" />
+        <option value="$PROJECT_DIR$/client/src/components/AccountOverview.tsx" />
         <option value="$PROJECT_DIR$/client/src/models/Transaction.ts" />
+        <option value="$PROJECT_DIR$/client/src/components/Transaction.tsx" />
+        <option value="$PROJECT_DIR$/client/src/components/List.tsx" />
+        <option value="$PROJECT_DIR$/client/src/containers/App.tsx" />
+        <option value="$PROJECT_DIR$/client/src/containers/List.tsx" />
       </list>
     </option>
   </component>
@@ -227,6 +237,18 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Bank skole" type="6f407253:SolutionExplorerNodeFileSystem" />
               <item name="Banker" type="6f407253:SolutionExplorerNodeFileSystem" />
+              <item name="Controllers" type="6f407253:SolutionExplorerNodeFileSystem" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Bank skole" type="6f407253:SolutionExplorerNodeFileSystem" />
+              <item name="Banker" type="6f407253:SolutionExplorerNodeFileSystem" />
+              <item name="Db" type="6f407253:SolutionExplorerNodeFileSystem" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Bank skole" type="6f407253:SolutionExplorerNodeFileSystem" />
+              <item name="Banker" type="6f407253:SolutionExplorerNodeFileSystem" />
               <item name="Models" type="6f407253:SolutionExplorerNodeFileSystem" />
             </path>
             <path>
@@ -238,7 +260,20 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Bank skole" type="6f407253:SolutionExplorerNodeFileSystem" />
               <item name="client" type="6f407253:SolutionExplorerNodeFileSystem" />
+              <item name="public" type="6f407253:SolutionExplorerNodeFileSystem" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Bank skole" type="6f407253:SolutionExplorerNodeFileSystem" />
+              <item name="client" type="6f407253:SolutionExplorerNodeFileSystem" />
               <item name="src" type="6f407253:SolutionExplorerNodeFileSystem" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Bank skole" type="6f407253:SolutionExplorerNodeFileSystem" />
+              <item name="client" type="6f407253:SolutionExplorerNodeFileSystem" />
+              <item name="src" type="6f407253:SolutionExplorerNodeFileSystem" />
+              <item name="components" type="6f407253:SolutionExplorerNodeFileSystem" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
@@ -274,6 +309,7 @@
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Banker/Banker.csproj" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="ts.external.directory.path" value="C:\Users\Rasmus\RiderProjects\Bank skole\client\node_modules\typescript\lib" />
     <property name="typescript-compiler-editor-notification" value="false" />
   </component>
@@ -317,12 +353,12 @@
       <option name="presentableId" value="Default" />
       <updated>1534920730818</updated>
       <workItem from="1534920732132" duration="5467000" />
-      <workItem from="1534937123883" duration="2048000" />
+      <workItem from="1534937123883" duration="10010000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7515000" />
+    <option name="totallyTimeSpent" value="15477000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -337,55 +373,58 @@
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="16" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Unit Tests" order="7" weight="0.32933334" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="REST Client" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32933334" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32933334" />
-      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32933334" />
-      <window_info anchor="bottom" id="TypeScript" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.32933334" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="REST Client" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.32933334" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32933334" />
+      <window_info anchor="bottom" id="NuGet" order="9" weight="0.32933334" />
+      <window_info anchor="bottom" id="TypeScript" order="0" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532124" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32933334" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.2494331" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="7" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="15" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="NuGet" order="0" weight="0.32933334" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="9" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2494331" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Unit Tests" order="3" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
-      <window_info anchor="right" id="Errors In Solution" order="0" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32933334" />
-      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="NuGet" order="9" weight="0.32933334" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.32933334" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2532124" />
+      <window_info id="Structure" order="1" side_tool="true" visible="true" weight="0.2494331" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="16" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="0" />
+      <window_info anchor="bottom" id="Find" order="3" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.32933334" />
+      <window_info anchor="bottom" id="REST Client" order="1" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32933334" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Build" order="15" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,13 +530,6 @@
     <entry file="file://$PROJECT_DIR$/Banker/Db/CustomerDB.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Banker/Db/AccountDB.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Banker/Db/DB.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -591,20 +623,6 @@
             <marker date="1534936706755" expanded="true" signature="172:613" ph="{...}" />
             <marker date="1534936706755" expanded="true" signature="240:607" ph="{...}" />
             <marker date="1534936706755" expanded="true" signature="263:331" ph="/* Web API configuration and services ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Banker/Controllers/AccountController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <marker date="1534936706843" expanded="false" signature="6:171" ph="..." />
-            <marker date="1534936706843" expanded="true" signature="201:686" ph="{...}" />
-            <marker date="1534936706843" expanded="true" signature="254:684" ph="{...}" />
-            <marker date="1534936706843" expanded="true" signature="318:465" ph="{...}" />
-            <marker date="1534936706843" expanded="true" signature="530:678" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -778,12 +796,13 @@
     <entry file="file://$PROJECT_DIR$/client/src/css/App.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/containers/App.tsx">
+    <entry file="file://$PROJECT_DIR$/Banker/Models/Transaction.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1534939552606" expanded="true" signature="38:327" ph="{...}" />
+            <marker date="1534939552606" expanded="true" signature="88:325" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -795,40 +814,147 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Banker/Models/Account.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <marker date="1534927812811" expanded="false" signature="6:47" ph="..." />
-            <marker date="1534927812811" expanded="true" signature="72:453" ph="{...}" />
-            <marker date="1534927812811" expanded="true" signature="118:451" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/models/Account.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Banker/Models/Transaction.cs">
+    <entry file="file://$PROJECT_DIR$/Banker/Models/Account.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="165">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           <folding>
-            <marker date="1534927811329" expanded="true" signature="38:279" ph="{...}" />
-            <marker date="1534927811329" expanded="true" signature="88:277" ph="{...}" />
+            <marker date="1534940195969" expanded="false" signature="6:47" ph="..." />
+            <marker date="1534940195969" expanded="true" signature="72:376" ph="{...}" />
+            <marker date="1534940195969" expanded="true" signature="118:374" ph="{...}" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Banker/Db/AccountDB.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <marker date="1534936727371" expanded="false" signature="6:143" ph="..." />
+            <marker date="1534936727371" expanded="true" signature="171:641" ph="{...}" />
+            <marker date="1534936727371" expanded="true" signature="214:639" ph="{...}" />
+            <marker date="1534936727371" expanded="true" signature="286:307" ph="{...}" />
+            <marker date="1534936727371" expanded="true" signature="365:463" ph="{...}" />
+            <marker date="1534936727371" expanded="true" signature="528:633" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Banker/Controllers/AccountController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <marker date="1534936706843" expanded="false" signature="6:171" ph="..." />
+            <marker date="1534936706843" expanded="true" signature="201:686" ph="{...}" />
+            <marker date="1534936706843" expanded="true" signature="254:684" ph="{...}" />
+            <marker date="1534936706843" expanded="true" signature="318:465" ph="{...}" />
+            <marker date="1534936706843" expanded="true" signature="530:678" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="72" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/css/List.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/css/SearchBar.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/css/Transaction.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/css/AccountOverview.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/models/Transaction.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Transaction.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/css/ListItem.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/ListItem.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/AccountOverview.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/List.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/SearchBar.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/containers/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/containers/List.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
         </state>
       </provider>
     </entry>

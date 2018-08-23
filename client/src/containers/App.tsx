@@ -1,19 +1,30 @@
 import * as React from 'react';
+import List from '../components/List'
+import ListItem from '../components/ListItem'
+import AccountOverview from '../components/AccountOverview'
+
+import {Customer} from "../models/Customer";
+
 import '../css/App.css';
 
-import logo from '../logo.svg';
+interface State {
+   customers?: Customer 
+}
 
-class App extends React.Component {
+
+class App extends React.Component<null, State> {
   public render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <div className={"list"}>
+            
+        </div>
+        <div className={"list"}>
+            <List />
+        </div>
+        <div className={"account-list"}>
+           <AccountOverview/> 
+        </div> 
       </div>
     );
   }

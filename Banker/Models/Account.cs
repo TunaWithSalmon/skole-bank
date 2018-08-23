@@ -11,7 +11,6 @@ namespace Banker.Models
         public int AccountNumber;
         public string AccountType;
         public float InterestRate;
-        public float Balance;
         public DateTime Created;
         public DateTime Modified;
     }
