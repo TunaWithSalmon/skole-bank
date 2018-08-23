@@ -10,9 +10,7 @@ interface Props {
 const ListItem: React.SFC<Props> = ({ label, onDelete }) => (
     <li className={"ListItem"}>
         <p className={"label"}>{label}</p>
-        <button onClick={onDelete} className={"delete-button"}>
-            <i className="material-icons">delete</i>
-        </button>
+        <i className="material-icons delete-button" onClick={onDelete}>delete</i>
     </li>
 )
 

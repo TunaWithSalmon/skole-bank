@@ -1,0 +1,10 @@
+.List {
+    border-right: 1px solid #f3f3f3;
+    height: 100%;
+    padding: 10px;
+}
+
+.List .list-wrapper {
+    padding: 0;
+    list-style: none;
+}

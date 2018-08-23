@@ -3,6 +3,6 @@ export interface Transaction {
     AccountId: string,
     TransactionName: string,
     Amount: number,
-    Created: string
-    Modified: string
+    Created: Date
+    Modified: Date
 }

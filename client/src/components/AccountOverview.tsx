@@ -6,11 +6,10 @@ import {Transaction as TransactionModel} from "../models/Transaction";
 
 interface Props {
     accountNumber: string,
-    balance: number
     transactions: TransactionModel[]
 }
 
-const AccountOverview: React.SFC<Props> = ({ accountNumber, balance, transactions }) => (
+const AccountOverview: React.SFC<Props> = ({ accountNumber, transactions }) => (
     <div className={"AccountOverview"}>
         <div className={"accountnr-wrapper"}>
             <p className={"account-label"}>Account num:</p>
@@ -18,7 +17,7 @@ const AccountOverview: React.SFC<Props> = ({ accountNumber, balance, transaction
         </div> 
         <div className={"balance-wrapper"}>
             <p className={"balance-label"}>Balance:</p>
-            <p className={"balance-value"}>{balance}</p>
+            <p className={"balance-value"}>{transactions.map(x => x.Amount).reduce((a, b): number => a + b,  0)}</p>
         </div>
         <ul className={"transactions-wrapper"}>
             {transactions.map(trans => <Transaction

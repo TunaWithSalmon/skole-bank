@@ -18,6 +18,10 @@ interface Props {
 class List extends React.Component<Props, State> {
     constructor(props: Props) {
        super(props) 
+        
+        this.state = {
+           searchWord: ""
+        }
     }
     
     changeSearch = (word: string) => this.setState({ searchWord: word }) 
