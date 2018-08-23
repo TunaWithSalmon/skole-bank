@@ -15,12 +15,12 @@ namespace bacnk_web.Models
         }
         public async Task CreateAccount(
             string accounttype,
-            int customerid
+            string customerid
         )
         {
             var newAcc = new Account()
             {
-                CustomerId = customerid,
+                CustomerId = ObjectId.Parse(customerid),
                 AccountNumber = ObjectId.GenerateNewId(DateTime.Now.Second).ToString(),
                 AccountType = accounttype,
                 InterestRate = GetInterestRate(accounttype),
@@ -45,12 +45,12 @@ namespace bacnk_web.Models
             switch (type.ToLower())
             {
                 case "normal":
-                    return (25 / 100);
+                    return (25/100f);
 
                 case "saving":
-                    return (50 / 100);
+                    return (50/100f);
                 default:
-                    return (25 / 100);
+                    return (25/100f);
             }
         }
     }

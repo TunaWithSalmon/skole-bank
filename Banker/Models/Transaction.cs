@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Banker.Models
 {
@@ -11,5 +13,10 @@ namespace Banker.Models
         public float Amount;
         public DateTime Created;
         public DateTime Modified;
+
+        internal Task<List<Transaction>> GetTransactions()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

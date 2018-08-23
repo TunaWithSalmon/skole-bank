@@ -10,7 +10,7 @@ namespace bacnk_web.Models
 {
     public class CustomerDB : DB<Customer>
     {
-        public CustomerDB(IMongoDatabase db) : base("customer", db)
+        public CustomerDB(IMongoDatabase db) : base("Customer", db)
         {
         }
 
