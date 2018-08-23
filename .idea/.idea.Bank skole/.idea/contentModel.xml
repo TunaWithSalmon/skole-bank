@@ -21,6 +21,7 @@
           <e p="CustomerDB.cs" t="Include" />
           <e p="DB.cs" t="Include" />
           <e p="DBConnection.cs" t="Include" />
+          <e p="TransactionDB.cs" t="Include" />
         </e>
         <e p="Global.asax" t="Include" />
         <e p="Global.asax.cs" t="Include" />

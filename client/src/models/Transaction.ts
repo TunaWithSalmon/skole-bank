@@ -1,7 +1,8 @@
 export interface Transaction {
-    _id;
-    TransactionName;
-    Amount;
-    public DateTime Created;
-    public DateTime Modified;
+    _id: string, 
+    AccountId: string,
+    TransactionName: string,
+    Amount: number,
+    Created: string
+    Modified: string
 }
