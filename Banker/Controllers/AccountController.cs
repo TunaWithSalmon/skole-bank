@@ -29,5 +29,13 @@ namespace Banker.Controllers
             await accountDB.CreateAccount(accountJson.AccountType, id);
             return "Success";
         }
+
+        public async Task<string> DeleteAccount([FromBody]Account accountJson, string id)
+        {
+
+            var accountDB = new AccountDB(DbConnection.Singleton.Database);
+            await accountDB.DeleteAccount(id);
+            return "Success";
+        }
     }
 }

@@ -28,5 +28,13 @@ namespace Banker.Controllers
             await customerDB.CreateCustomer(accountJson.FirstName, accountJson.LastName, accountJson.Cpr);
             return "Success";
         }
+
+        public async Task<string> DeleteCustomer([FromBody]Account accountJson, string id)
+        {
+
+            var customerDB = new CustomerDB(DbConnection.Singleton.Database);
+            await customerDB.DeleteCustomer(id);
+            return "Success";
+        }
     }
 }

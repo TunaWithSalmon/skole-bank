@@ -40,6 +40,9 @@ namespace bacnk_web.Models
         {
             return await GetAll(new BsonDocument());
         }
-
+        public async Task<Customer> DeleteCustomer(string id)
+        {
+            return await DeleteOne(new BsonDocument("_id", ObjectId.Parse(id)));
+        }
     }
 }

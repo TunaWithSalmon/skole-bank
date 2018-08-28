@@ -28,5 +28,9 @@ namespace Banker.Db
         {
             return await _collection.Find(query).FirstAsync();
         }
+        protected async Task<TModel> DeleteOne(BsonDocument query)
+        {
+            return await _collection.FindOneAndDeleteAsync(query);
+        }
     }
 }

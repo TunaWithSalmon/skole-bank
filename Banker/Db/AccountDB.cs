@@ -39,6 +39,11 @@ namespace bacnk_web.Models
         {
             return await GetAll(new BsonDocument("CustomerId", ObjectId.Parse(id)));
         }
+
+        public async Task<Account> DeleteAccount(string id)
+        {
+            return await DeleteOne(new BsonDocument("_id", ObjectId.Parse(id)));
+        }
         
         private float GetInterestRate(string type)
         {
