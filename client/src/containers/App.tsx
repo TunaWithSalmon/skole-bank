@@ -1,5 +1,7 @@
 import * as React from 'react';
 import List from './List'
+import CreateCustomer from '../components/CreateCustomer'
+import CreateAccount from '../components/CreateAccount'
 import AccountOverview from '../components/AccountOverview'
 
 import {Customer} from "../models/Customer";
@@ -13,6 +15,8 @@ interface Props {
 }
 
 interface State {
+    createOpen: boolean,
+    createAccOpen: boolean,
     customer?: Customer,
     account?: Account,
     customers?: Customer[],
@@ -20,72 +24,143 @@ interface State {
     transactions?: Transaction[]
 }
 
+const url = "http://localhost:50322/api";
 
 class App extends React.Component<Props, State> {
     constructor(props: Props) {
         super(props)
         
         this.state = {
-            account: {
-                AccountNumber: 2222321,
-                _id: "jfkdajf",
-                AccountType: "jkfda",
-                Created: new Date(),
-                Modified: new Date(),
-                CustomerId: "faklj",
-                InterestRate: 0.12
-            },
-            accounts: [{
-                AccountNumber: 2222321,
-                _id: "jfkdajf",
-                AccountType: "jkfda",
-                Created: new Date(),
-                Modified: new Date(),
-                CustomerId: "faklj",
-                InterestRate: 0.12
-            }],
-            customer: {
-                _id: "das",
-                Cpr: "fjs",
-                Created: new Date(),
-                Modified: new Date(),
-                FirstName: "Rasmus",
-                LastName: "Davidsen"
-            },
-            customers: [{
-                _id: "das",
-                Cpr: "fjs",
-                Created: new Date(),
-                Modified: new Date(),
-                FirstName: "Rasmus",
-                LastName: "Davidsen"
-            }],
-            transactions: [
-                { Amount: 32, TransactionName: "fsd", _id: "23", AccountId: "43", Created: new Date(), Modified: new Date()}
-            ]
-            
+            createOpen: false,
+            createAccOpen: false
         }
     }
     
-    addCustomer() {
+    componentWillMount() {
+        this.getCustomers()
+    }
+    
+    getCustomers() {
+        const fetchData = {
+            method: 'GET',
+            headers: {
+                "Content-Type": "application/json; charset=utf-8",
+            }
+        }
 
+        fetch(`${url}/customer/GetCustomers`, fetchData)
+            .then((resp) => resp.json())
+            .then((custJson) => {
+                this.setState({customers: custJson})
+            })
+    }
+    
+    addCustomer(customer: Customer) {
+        const fetchData = {
+            method: 'POST',
+            body: JSON.stringify(customer),
+            headers: {
+                "Content-Type": "application/json; charset=utf-8",
+            }
+        }
+        
+        fetch(`${url}/customer/PostCustomer`, fetchData)
+            .then(() => {
+                this.getCustomers()
+            });
     }
     
     removeCustomer(customerId: string) {
-        
+        const fetchData = {
+            method: 'DELETE',
+            headers: {
+                "Content-Type": "application/json; charset=utf-8",
+            }
+        }
+
+        fetch(`${url}/customer/DeleteCustomer/${customerId}`, fetchData)
+            .then(() => {
+                this.getCustomers()
+            });
     }
     
-    addAccount(customerId: string) {
-        
+    selectCustomer(customer: Customer) {
+        this.setState({ customer, account: undefined })
+        this.getAccounts(customer._id)
     }
     
-    removeAccount(accountId: string) {
-        
+    getAccounts(customerId: string) {
+        const fetchData = {
+            method: 'GET',
+            headers: {
+                "Content-Type": "application/json; charset=utf-8",
+            }
+        }
+
+        fetch(`${url}/account/GetAccounts/${customerId}`, fetchData)
+            .then((resp) => resp.json())
+            .then((accJson) => {
+                this.setState({accounts: accJson})
+            })
+    }
+    
+    addAccount(account: Account, customerId: string) {
+        const fetchData = {
+            method: 'POST',
+            body: JSON.stringify(account),
+            headers: {
+                "Content-Type": "application/json; charset=utf-8",
+            }
+        }
+
+        fetch(`${url}/account/PostAccount/${customerId}`, fetchData)
+            .then(() => {
+                this.getAccounts(customerId)
+            });
+    }
+    
+    removeAccount(accountId: string, custId: string) {
+        const fetchData = {
+            method: 'DELETE',
+            headers: {
+                "Content-Type": "application/json; charset=utf-8",
+            }
+        }
+
+        fetch(`${url}/account/DeleteAccount/${accountId}`, fetchData)
+            .then(() => {
+                this.getAccounts(custId)
+                this.setState({ account: undefined })
+            });
+    }
+    
+    selectAccount(account: Account) {
+        this.setState({ account }) 
+        this.getTransactions(account._id)
     }
     
     getTransactions(accountId: string) {
-        
+        const fetchData = {
+            method: 'GET',
+            headers: {
+                "Content-Type": "application/json; charset=utf-8",
+            }
+        }
+
+        fetch(`${url}/transaction/GetTransactions/${accountId}`, fetchData)
+            .then((resp) => resp.json())
+            .then((transJson) => {
+                this.setState({transactions: transJson})
+            })
     }
+    
+    openCreateCustomer = () => this.setState({ createOpen: true })
+    closeCreateCustomer = () => this.setState({ createOpen: false })
+    onCreateCustomer = (cust: Customer) => this.addCustomer(cust)
+    
+    openCreateAccount = () => this.setState({ createAccOpen: true })
+    closeCreateAccount = () => this.setState({ createAccOpen: false })
+    onCreateAccount = (acc: Account, id: string) => this.addAccount(acc, id)
     
     public render() {
         const { customers, customer, accounts, account, transactions } = this.state;
@@ -95,22 +170,24 @@ class App extends React.Component<Props, State> {
                 <div className={"list"}>
                     <List 
                         title={"Customers"} 
-                        addItem={() => this.addCustomer()} 
-                        listItems={customers && customers.map((cust): { label: string,  onDelete: () => void, id: string } => 
-                            ({ onDelete: () => this.removeCustomer(cust._id), label: cust.FirstName, id: cust._id })) || []}
+                        addItem={this.openCreateCustomer} 
+                        listItems={customers && customers.map((cust): { label: string, onSelect: () => void, onDelete: () => void, id: string } => 
+                            ({ onSelect: () => this.selectCustomer(cust), onDelete: () => this.removeCustomer(cust._id), label: cust.FirstName, id: cust._id })) || []}
                     />
                 </div>
                 <div className={"list"}>
-                    <List
+                    {customer && <List
                         title={"Accounts"}
-                        addItem={() => this.addAccount(customer && customer._id || "")}
-                        listItems={accounts && accounts.map((acc): { label: string,  onDelete: () => void, id: string } =>
-                            ({ onDelete: () => this.removeAccount(acc._id), label: acc.AccountNumber.toString(), id: acc._id })) || []}
-                    />
+                        addItem={this.openCreateAccount}
+                        listItems={accounts && accounts.map((acc): { label: string,  onSelect: () => void, onDelete: () => void, id: string } =>
+                            ({ onSelect: () => this.selectAccount(acc), onDelete: () => this.removeAccount(acc._id, acc.CustomerId), label: acc.AccountNumber.toString(), id: acc._id })) || []}
+                    />}
                 </div>
                 <div className={"account-list"}>
                     {account && <AccountOverview accountNumber={account.AccountNumber.toString()} transactions={transactions || []} />}
                 </div>
+                {this.state.createOpen && <CreateCustomer createCustomer={this.onCreateCustomer} close={this.closeCreateCustomer}/>}
+                {this.state.createAccOpen && this.state.customer && <CreateAccount customer={this.state.customer} createAccount={this.onCreateAccount} close={this.closeCreateAccount}/>}
             </div>
         );
     }

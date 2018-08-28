@@ -12,7 +12,7 @@ interface State {
 interface Props {
     title: string,
     addItem: () => void,
-    listItems: { label: string,  onDelete: () => void, id: string }[]
+    listItems: { label: string,  onDelete: () => void, onSelect: () => void, id: string }[]
 }
 
 class List extends React.Component<Props, State> {
@@ -33,7 +33,7 @@ class List extends React.Component<Props, State> {
                 <SearchBar label={title} onSearchChange={this.changeSearch} onAddClick={addItem} />
                 <ul className={"list-wrapper"}>
                     {listItems.filter(item => item.label.includes(this.state.searchWord))
-                        .map(item => <ListItem label={item.label} onDelete={item.onDelete} key={item.id} />)}
+                        .map(item => <ListItem onSelect={item.onSelect} label={item.label} onDelete={item.onDelete} key={item.id} />)}
                 </ul>
             </div>
         )

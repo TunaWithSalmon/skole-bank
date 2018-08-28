@@ -1,12 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using bacnk_web.Models;
 using Banker.Db;
 using Banker.Models;
 
 namespace Banker.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class CustomerController : ApiController
     {
         public async Task<Customer> GetCustomer(string id)

@@ -210,3 +210,6 @@ C:\Users\jhansen\Documents\GitHub\skole-bank\Banker\obj\Debug\Banker.csproj.Core
 C:\Users\jhansen\Documents\GitHub\skole-bank\Banker\obj\Debug\Banker.csproj.CopyComplete
 C:\Users\jhansen\Documents\GitHub\skole-bank\Banker\obj\Debug\Banker.dll
 C:\Users\jhansen\Documents\GitHub\skole-bank\Banker\obj\Debug\Banker.pdb
+C:\Users\Rasmus\RiderProjects\Bank skole\Banker\bin\System.Web.Cors.dll
+C:\Users\Rasmus\RiderProjects\Bank skole\Banker\bin\System.Web.Http.Cors.dll
+C:\Users\Rasmus\RiderProjects\Bank skole\Banker\bin\System.Web.Http.Cors.xml

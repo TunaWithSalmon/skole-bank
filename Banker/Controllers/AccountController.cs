@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using bacnk_web.Models;
 using Banker.Db;
 using Banker.Models;
@@ -8,6 +9,7 @@ using Newtonsoft.Json;
 
 namespace Banker.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class AccountController : ApiController
     { 
         public async Task<Account> GetAccount(string id)

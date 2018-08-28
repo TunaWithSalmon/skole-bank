@@ -4,9 +4,11 @@ using Banker.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace Banker.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class TransactionController : ApiController
     {
         public async Task<List<Transaction>> GetTransactions(string id)
