@@ -7,8 +7,8 @@ namespace Banker.Models
     public class Account
     {
         public MongoDB.Bson.ObjectId _id;
-        public int CustomerId;
-        public int AccountNumber;
+        public MongoDB.Bson.ObjectId CustomerId;
+        public string AccountNumber;
         public string AccountType;
         public float InterestRate;
         public DateTime Created;

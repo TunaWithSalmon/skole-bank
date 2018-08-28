@@ -1,0 +1,27 @@
+.AccountOverview {
+    height: calc(100% - 20px);
+    padding: 10px;
+    overflow: hidden;
+}
+
+.AccountOverview .accountnr-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+
+.AccountOverview .balance-wrapper {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.AccountOverview .transactions-wrapper {
+    padding: 0;
+    list-style: none;
+    overflow-y: auto;
+}

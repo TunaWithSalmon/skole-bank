@@ -16,25 +16,24 @@ namespace bacnk_web.Models
 
         public async Task CreateTransaction(
             string name,
-            int amount
+            float amount,
+            string accountid
         )
         {
             var newTrans = new Transaction()
             {
                 TransactionName = name,
                 Amount = amount,
+                AccountId = ObjectId.Parse(accountid),
+                Created = DateTime.Now,
+                Modified = DateTime.Now
             };
             await Insert(newTrans);
         }
 
-        public async Task<Transaction> GetTransaction(string id)
+        public async Task<List<Transaction>> GetTransactions(string id)
         {
-            return await GetOne(new BsonDocument("_id", ObjectId.Parse(id)));
-        }
-
-        public async Task<List<Transaction>> GetCustomers()
-        {
-            return await GetAll(new BsonDocument());
+            return await GetAll(new BsonDocument("AccountId", ObjectId.Parse(id)));
         }
 
     }

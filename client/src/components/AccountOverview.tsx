@@ -23,6 +23,7 @@ const AccountOverview: React.SFC<Props> = ({ accountNumber, transactions }) => (
             {transactions.map(trans => <Transaction
                 key={trans._id} 
                 ammount={trans.Amount}
+                date={trans.Created}
                 label={trans.TransactionName}
             />)} 
         </ul>
