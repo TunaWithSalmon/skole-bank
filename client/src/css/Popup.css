@@ -9,3 +9,31 @@
     align-items: center;
     background: rgba(0,0,0,0.4);
 }
+
+.Popup .wrapper {
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 10px 4px;
+    flex: 0 1 400px;
+}
+
+.Popup .wrapper input {
+    border: solid 1px #e3e3e3;
+    border-radius: 4px;
+    padding: 2px 6px;
+    display: block;
+    margin-bottom: 6px;
+    width: calc(100% - 12px);
+}
+
+.Popup .wrapper .button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Popup .wrapper .button-wrapper button {
+    border: solid 1px #e3e3e3;
+    border-radius: 4px;
+    padding: 2px 6px;
+}

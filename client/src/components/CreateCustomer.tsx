@@ -39,12 +39,12 @@ export default class CreateCustomer extends React.Component<Props, State> {
     render() {
         return (
             <Popup>
-                <div>
+                <div className={"wrapper"}>
                     <p>Create Customer</p>
                     <input onChange={this.changeFirstName} placeholder={"First name"}/>
                     <input onChange={this.changeLastName} placeholder={"Last name"}/>
                     <input onChange={this.changeCpr} placeholder={"Cpr"}/>
-                    <div>
+                    <div className={"button-wrapper"}>
                         <button onClick={this.close}>Cancel</button>
                         <button onClick={this.create}>Create</button>
                     </div>

@@ -40,10 +40,10 @@ export default class CreateAccount extends React.Component<Props, State> {
     render() {
         return (
             <Popup>
-                <div>
+                <div className={"wrapper"}>
                     <p>Create account</p>
                     <input onChange={this.changeType} placeholder={"Type"}/>
-                    <div>
+                    <div className={"button-wrapper"}>
                         <button onClick={this.close}>Cancel</button>
                         <button onClick={this.create}>Create</button>
                     </div>

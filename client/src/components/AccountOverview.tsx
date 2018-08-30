@@ -17,9 +17,10 @@ const AccountOverview: React.SFC<Props> = ({ accountNumber, transactions }) => (
         </div> 
         <div className={"balance-wrapper"}>
             <p className={"balance-label"}>Balance:</p>
-            <p className={"balance-value"}>{transactions.map(x => x.Amount).reduce((a, b): number => a + b,  0)}</p>
+            <p className={"balance-value"}>{transactions.map(x => x.Amount).reduce((acc, val): number => acc + val,  0)}</p>
         </div>
-        <ul className={"transactions-wrapper"}>
+        <div className={"transactions-wrapper"}>
+        <ul>
             {transactions.map(trans => <Transaction
                 key={trans._id} 
                 ammount={trans.Amount}
@@ -27,6 +28,7 @@ const AccountOverview: React.SFC<Props> = ({ accountNumber, transactions }) => (
                 label={trans.TransactionName}
             />)} 
         </ul>
+        </div>
     </div>
 )
 
